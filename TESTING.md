@@ -21,6 +21,13 @@
 - Python 3.11+
 ## Automated tests
 
+## CI status note
+
+GitHub Actions CI is configured to run automated smoke and tamper tests on every push.
+
+If CI jobs are not executing, this may be due to GitHub account billing or runner availability.
+This does not affect local test execution or the deterministic guarantees of EchoCert.
+
 EchoCert includes deterministic shell-based tests:
 
 - `tests/test_smoke.sh` — end-to-end record → diff → verify
