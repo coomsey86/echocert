@@ -1,0 +1,1 @@
+{"metadata":{},"output":"{\n  \"response\": \"The capital of France is Paris.\",\n  \"confidence\": \"high\",\n  \"length\": \"short\",\n  \"extra\": \"Paris has been the capital since 508 AD.\"\n}\n","prompt":"{\n  \"prompt\": \"What is the capital of France?\"\n}\n"}

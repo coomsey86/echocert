@@ -1,0 +1,27 @@
+{
+  "added": {},
+  "changed": {
+    "metadata": {
+      "left": {
+        "canonicalization": "v1",
+        "echocert_version": "0.1.0",
+        "non_claims": [
+          "no_truth_evaluation",
+          "no_alignment_scoring",
+          "no_model_introspection",
+          "no_safety_judgment"
+        ],
+        "os": "Windows",
+        "prev_receipt_hash": "69a755a8581ab23f1eb5a9830340dcf65d67c596e8bdfc7a47b69bb9552a6d38",
+        "python": "3.13.2",
+        "timestamp_utc": "2026-01-29T03:01:38.504306+00:00"
+      },
+      "right": {}
+    },
+    "output": {
+      "left": "{\n  \"response\": \"The capital of France is Paris.\",\n  \"confidence\": \"high\",\n  \"length\": \"short\"\n}\n",
+      "right": "{\n  \"response\": \"The capital of France is Paris.\",\n  \"confidence\": \"very high\",\n  \"length\": \"short\"\n}\n"
+    }
+  },
+  "removed": {}
+}
