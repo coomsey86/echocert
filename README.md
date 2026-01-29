@@ -7,6 +7,18 @@ It records AI responses as static artifacts, generates tamper-evident hashes, an
 EchoCert does not evaluate truth, intent, alignment, or model internals.
 It produces evidence, not judgments.
 
+## Why EchoCert exists
+
+Modern LLM systems change over time. Most tooling attempts to *judge* those changes.
+
+EchoCert does not.
+
+EchoCert provides deterministic, cryptographically verifiable evidence of LLM output drift — without making claims about correctness, safety, or intent.
+
+- Not a safety classifier
+- Not a compliance authority
+- Not a live agent or prompt modifier
+
 ## What EchoCert Is
 - A forensic audit layer for AI outputs
 - A black-box flight recorder for LLM behavior
@@ -17,5 +29,12 @@ It produces evidence, not judgments.
 - Not a safety classifier
 - Not a compliance authority
 - Not a live agent or prompt modifier
+
+## Intended users
+
+- AI platform teams
+- Compliance & risk teams
+- Legal & audit functions
+- Organisations that need evidence, not opinions
 
 EchoCert is designed to support governance, compliance, research, and accountability workflows.
