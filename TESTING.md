@@ -19,3 +19,15 @@
 ## Platforms tested
 - Windows + Git Bash
 - Python 3.11+
+## Automated tests
+
+EchoCert includes deterministic shell-based tests:
+
+- `tests/test_smoke.sh` — end-to-end record → diff → verify
+- `tests/test_tamper.sh` — proves tamper detection via hash mismatch
+
+Tests are designed to:
+- run without external dependencies
+- be CI-friendly
+- validate forensic guarantees
+
