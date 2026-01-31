@@ -1,23 +1,22 @@
 # EchoCert
 
-EchoCert is a deterministic audit and receipt engine for large language model (LLM) outputs.
+EchoCert generates tamper-evident, hash-verified receipts for LLM outputs.
 
-It records AI responses as static artifacts, generates tamper-evident hashes, and produces verifiable receipts that expose output drift, silent changes, and behavioral deltas over time.
+It proves when an LLM response changes across:
+- prompt edits
+- model updates
+- context / RAG changes
 
-EchoCert does not evaluate truth, intent, alignment, or model internals.
-It produces evidence, not judgments.
+No eval scores. No opinions. Just cryptographic evidence.
 
-## Why EchoCert exists
+## Example
 
-Modern LLM systems change over time. Most tooling attempts to *judge* those changes.
+Prompt: "Summarise this contract"
 
-EchoCert does not.
+Run A hash: a91c...
+Run B hash: f3e2...
 
-EchoCert provides deterministic, cryptographically verifiable evidence of LLM output drift — without making claims about correctness, safety, or intent.
-
-- Not a safety classifier
-- Not a compliance authority
-- Not a live agent or prompt modifier
+Output changed → drift proven.
 
 ## What EchoCert Is
 - A forensic audit layer for AI outputs
@@ -31,10 +30,7 @@ EchoCert provides deterministic, cryptographically verifiable evidence of LLM ou
 - Not a live agent or prompt modifier
 
 ## Intended users
-
 - AI platform teams
 - Compliance & risk teams
 - Legal & audit functions
 - Organisations that need evidence, not opinions
-
-EchoCert is designed to support governance, compliance, research, and accountability workflows.
