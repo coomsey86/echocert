@@ -1,36 +1,50 @@
 # EchoCert
 
-EchoCert generates tamper-evident, hash-verified receipts for LLM outputs.
+EchoCert proves that AI outputs have not been changed.
 
-It proves when an LLM response changes across:
-- prompt edits
-- model updates
-- context / RAG changes
+It creates a simple receipt for every AI run, so you can show:
 
-No eval scores. No opinions. Just cryptographic evidence.
+- what was asked
+- what was produced
+- when it happened
+- whether anything has been altered afterwards
 
-## Example
+## Plain English
 
-Prompt: "Summarise this contract"
+AI work normally disappears in chats.
 
-Run A hash: a91c...
-Run B hash: f3e2...
+EchoCert turns that into a receipt you can check later.
 
-Output changed → drift proven.
+If anything changes, the receipt fails.
 
-## What EchoCert Is
-- A forensic audit layer for AI outputs
-- A black-box flight recorder for LLM behavior
-- A reproducible, inspectable, deterministic system
+## Who this is for
 
-## What EchoCert Is Not
-- Not a model evaluator
-- Not a safety classifier
-- Not a compliance authority
-- Not a live agent or prompt modifier
+- creators who want proof of their work
+- businesses using AI with clients
+- legal or audit teams
+- anyone who needs evidence, not guesses
 
-## Intended users
-- AI platform teams
-- Compliance & risk teams
-- Legal & audit functions
-- Organisations that need evidence, not opinions
+## What this repo is
+
+This is the public, safe version of EchoCert.
+
+It shows how the system works without exposing private Echo Framework logic, vault data, or personal material.
+
+## What’s not included
+
+- private framework layers
+- personal vaults or memory
+- secret keys
+- full internal system
+
+## Commercial use
+
+Private installs, pilots, and licensing are available.
+
+Start simple:
+
+"I help you prove your AI outputs are real and unchanged."
+
+## Status
+
+Working concept, being packaged for real-world use.
