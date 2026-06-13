@@ -6,16 +6,19 @@ echo "== EchoCert tamper test =="
 TMPDIR="$(mktemp -d)"
 trap 'rm -rf "$TMPDIR"' EXIT
 
-# record
-python echocert.py record \
-  --prompt simulator/inputs/prompt.json \
-  --output simulator/outputs/out_A.json \
-  --receipt "$TMPDIR/receipt.json"
+mkdir -p "$TMPDIR/examples"
+echo "Explain EchoCert in one sentence." > "$TMPDIR/examples/prompt.txt"
+echo "EchoCert creates tamper-evident AI audit receipts." > "$TMPDIR/examples/output.txt"
 
-# tamper with receipt
+python echocert.py record \
+  --from-files \
+  --prompt "$TMPDIR/examples/prompt.txt" \
+  --output "$TMPDIR/examples/output.txt" \
+  --receipt "$TMPDIR/receipt.json" \
+  --label TamperTest
+
 echo " " >> "$TMPDIR/receipt.json"
 
-# verify should fail
 if python echocert.py verify "$TMPDIR/receipt.json"; then
   echo "ERROR: tampered file verified successfully"
   exit 1
