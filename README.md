@@ -1,50 +1,107 @@
 # EchoCert
 
-EchoCert proves that AI outputs have not been changed.
+EchoCert is a local-first AI audit receipt tool.
 
-It creates a simple receipt for every AI run, so you can show:
+It records:
+- the prompt
+- the AI output
+- timestamp and metadata
+- a SHA-256 integrity hash
 
-- what was asked
-- what was produced
-- when it happened
-- whether anything has been altered afterwards
+The goal is simple:
 
-## Plain English
+**Create evidence that an AI interaction has not been altered after the fact.**
 
-AI work normally disappears in chats.
+---
 
-EchoCert turns that into a receipt you can check later.
+## What it does
 
-If anything changes, the receipt fails.
+- Creates deterministic JSON receipts
+- Seals receipts with SHA-256 hashes
+- Verifies whether files were modified later
+- Produces diff reports between two receipts
+- Runs locally with Python
 
-## Who this is for
+---
 
-- creators who want proof of their work
-- businesses using AI with clients
-- legal or audit teams
-- anyone who needs evidence, not guesses
+## Quick Start
 
-## What this repo is
+Clone:
 
-This is the public, safe version of EchoCert.
+```bash
+git clone https://github.com/coomsey86/echocert.git
+cd echocert
+```
 
-It shows how the system works without exposing private Echo Framework logic, vault data, or personal material.
+Create demo files:
 
-## What’s not included
+```bash
+python echocert.py init-demo
+```
 
-- private framework layers
-- personal vaults or memory
-- secret keys
-- full internal system
+Create a receipt:
 
-## Commercial use
+```bash
+python echocert.py record --from-files --prompt examples/prompt.txt --output examples/output.txt
+```
 
-Private installs, pilots, and licensing are available.
+Verify the receipt:
 
-Start simple:
+```bash
+python echocert.py verify receipts/receipt.json
+```
 
-"I help you prove your AI outputs are real and unchanged."
+---
+
+## Example Use Cases
+
+### AI Evidence
+
+Store prompts and outputs for future verification.
+
+### Compliance
+
+Keep evidence of AI-assisted workflows.
+
+### Internal Audits
+
+Compare outputs between versions.
+
+### Research
+
+Track prompt evolution over time.
+
+---
+
+## Commercial Services
+
+Potential service offerings:
+
+- AI Audit Reports
+- Evidence Packs
+- Prompt Review
+- AI Workflow Reviews
+- Business AI Documentation
+
+---
+
+## Important
+
+EchoCert does NOT:
+
+- Prove truth
+- Prove authorship ownership by itself
+- Inspect model internals
+- Replace legal advice
+
+It is an evidence and audit tool.
+
+---
 
 ## Status
 
-Working concept, being packaged for real-world use.
+Version: 0.2
+
+Public working prototype.
+
+Built around practical AI audit receipts and integrity verification.
