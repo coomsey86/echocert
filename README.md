@@ -7,6 +7,7 @@ It records:
 - the AI output
 - timestamp and metadata
 - a SHA-256 integrity hash
+- a client-ready HTML audit report
 
 The goal is simple:
 
@@ -20,6 +21,7 @@ The goal is simple:
 - Seals receipts with SHA-256 hashes
 - Verifies whether files were modified later
 - Produces diff reports between two receipts
+- Generates HTML audit reports for clients
 - Runs locally with Python
 
 ---
@@ -42,7 +44,7 @@ python echocert.py init-demo
 Create a receipt:
 
 ```bash
-python echocert.py record --from-files --prompt examples/prompt.txt --output examples/output.txt
+python echocert.py record --from-files --prompt examples/prompt.txt --output examples/output.txt --receipt receipts/receipt.json --label Demo
 ```
 
 Verify the receipt:
@@ -50,6 +52,30 @@ Verify the receipt:
 ```bash
 python echocert.py verify receipts/receipt.json
 ```
+
+Generate a client-ready HTML report:
+
+```bash
+python echocert_report.py receipts/receipt.json --out reports/audit_report.html
+```
+
+Open `reports/audit_report.html` in a browser. Use **Print -> Save as PDF** to create a PDF report.
+
+---
+
+## Windows demo
+
+Double-click:
+
+```text
+run_demo.bat
+```
+
+This creates:
+- example prompt/output files
+- a sealed receipt
+- a verification check
+- an HTML audit report
 
 ---
 
@@ -83,6 +109,10 @@ Potential service offerings:
 - AI Workflow Reviews
 - Business AI Documentation
 
+Example offer:
+
+**EchoCert Quick Audit** — customer sends one AI prompt/output, you return an integrity report and evidence notes.
+
 ---
 
 ## Important
@@ -100,8 +130,6 @@ It is an evidence and audit tool.
 
 ## Status
 
-Version: 0.2
+Version: 0.3
 
-Public working prototype.
-
-Built around practical AI audit receipts and integrity verification.
+Public working prototype with receipt, verification, diff, and HTML report generation.
