@@ -3,24 +3,38 @@ set -euo pipefail
 
 echo "== EchoCert smoke test =="
 
-# temp workspace
 TMPDIR="$(mktemp -d)"
 trap 'rm -rf "$TMPDIR"' EXIT
 
-# record
-python echocert.py record \
-  --prompt simulator/inputs/prompt.json \
-  --output simulator/outputs/out_A.json \
-  --receipt "$TMPDIR/receipt.json"
+mkdir -p "$TMPDIR/examples"
+echo "Explain EchoCert in one sentence." > "$TMPDIR/examples/prompt.txt"
+echo "EchoCert creates tamper-evident AI audit receipts." > "$TMPDIR/examples/output_a.txt"
+echo "EchoCert creates tamper-evident AI audit receipts with SHA-256 seals." > "$TMPDIR/examples/output_b.txt"
 
-# diff
+python echocert.py record \
+  --from-files \
+  --prompt "$TMPDIR/examples/prompt.txt" \
+  --output "$TMPDIR/examples/output_a.txt" \
+  --receipt "$TMPDIR/receipt_a.json" \
+  --label SmokeA
+
+python echocert.py record \
+  --from-files \
+  --prompt "$TMPDIR/examples/prompt.txt" \
+  --output "$TMPDIR/examples/output_b.txt" \
+  --receipt "$TMPDIR/receipt_b.json" \
+  --label SmokeB
+
 python echocert.py diff \
-  "$TMPDIR/receipt.json" \
-  simulator/receipts/receipt_B.json \
+  "$TMPDIR/receipt_a.json" \
+  "$TMPDIR/receipt_b.json" \
   --out "$TMPDIR/delta.json"
 
-# verify
-python echocert.py verify "$TMPDIR/receipt.json"
+python echocert.py verify "$TMPDIR/receipt_a.json"
+python echocert.py verify "$TMPDIR/receipt_b.json"
 python echocert.py verify "$TMPDIR/delta.json"
+python echocert_report.py "$TMPDIR/receipt_a.json" --out "$TMPDIR/audit_report.html"
+
+test -s "$TMPDIR/audit_report.html"
 
 echo "SMOKE TEST PASSED"
