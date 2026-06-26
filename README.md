@@ -1,17 +1,29 @@
 # EchoCert
 
-EchoCert is a local-first AI audit receipt tool.
+**EchoCert is a local-first AI evidence and audit receipt tool.**
 
-It records:
-- the prompt
-- the AI output
-- timestamp and metadata
-- a SHA-256 integrity hash
-- a client-ready HTML audit report
+It creates tamper-evident records for AI-assisted work by recording the prompt, output, timestamp, metadata and a SHA-256 integrity hash, then producing client-ready reports that can be checked later.
 
 The goal is simple:
 
-**Create evidence that an AI interaction has not been altered after the fact.**
+**Create evidence that an AI interaction, file, or output has not been silently altered after the fact.**
+
+---
+
+## Public demo boundary
+
+This public repository is a working demonstration of EchoCert's evidence workflow.
+
+It is intended to show the product concept, basic receipt generation, verification, reporting and tamper-detection flow.
+
+The public version does not include private commercial logic, client systems, confidential workflows, signing infrastructure, advanced key management, proprietary scoring methods, or customer evidence.
+
+For clarity:
+
+- Public repository: demonstration, documentation and evaluation.
+- Private commercial build: production tooling, protected workflows and licensed deployments.
+
+See [`PRIVATE_PUBLIC_BOUNDARY.md`](PRIVATE_PUBLIC_BOUNDARY.md) for the public/private split.
 
 ---
 
@@ -19,10 +31,11 @@ The goal is simple:
 
 - Creates deterministic JSON receipts
 - Seals receipts with SHA-256 hashes
-- Verifies whether files were modified later
+- Verifies whether files or receipts were modified later
 - Produces diff reports between two receipts
-- Generates HTML audit reports for clients
+- Generates client-ready HTML audit reports
 - Runs locally with Python
+- Supports evidence pack style workflows for audits, compliance reviews and dispute preparation
 
 ---
 
@@ -72,6 +85,7 @@ run_demo.bat
 ```
 
 This creates:
+
 - example prompt/output files
 - a sealed receipt
 - a verification check
@@ -79,57 +93,65 @@ This creates:
 
 ---
 
-## Example Use Cases
+## Example use cases
 
-### AI Evidence
+### AI evidence
 
 Store prompts and outputs for future verification.
 
 ### Compliance
 
-Keep evidence of AI-assisted workflows.
+Keep records of AI-assisted workflows for review, audit and governance.
 
-### Internal Audits
+### Internal audits
 
-Compare outputs between versions.
+Compare outputs between versions, tools or workflow changes.
 
 ### Research
 
-Track prompt evolution over time.
+Track prompt evolution and output changes over time.
+
+### Dispute preparation
+
+Create clear records showing what was generated, when it was generated and whether later tampering is detectable.
 
 ---
 
-## Commercial Services
+## Commercial services
 
-Potential service offerings:
+EchoCert can support services such as:
 
 - AI Audit Reports
 - Evidence Packs
-- Prompt Review
+- Prompt / Output Review
 - AI Workflow Reviews
 - Business AI Documentation
+- Compliance-support documentation
 
 Example offer:
 
-**EchoCert Quick Audit** — customer sends one AI prompt/output, you return an integrity report and evidence notes.
+**EchoCert Quick Audit** — customer sends one AI prompt/output pair, you return an integrity report and evidence notes.
+
+Commercial or production use requires a separate commercial licence. See [`LICENSE`](LICENSE) and [`LICENSING.md`](LICENSING.md).
 
 ---
 
-## Important
+## Important limits
 
-EchoCert does NOT:
+EchoCert does **not**:
 
-- Prove truth
-- Prove authorship ownership by itself
-- Inspect model internals
+- Prove that an AI output is true
+- Prove legal authorship ownership by itself
+- Inspect private model internals
 - Replace legal advice
+- Replace professional compliance review
 
-It is an evidence and audit tool.
+It is an evidence and audit tool. It helps prove integrity, continuity and tamper detection around AI records.
 
 ---
 
 ## Status
 
-Version: 0.3
+Version: Public working prototype.
 
-Public working prototype with receipt, verification, diff, and HTML report generation.
+This repo demonstrates receipt creation, verification, diffing and HTML report generation while keeping private commercial material out of the public release.
