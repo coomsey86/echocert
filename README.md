@@ -1,29 +1,62 @@
 # EchoCert
 
-**EchoCert is a local-first AI evidence and audit receipt tool.**
+![Status](https://img.shields.io/badge/status-public%20prototype-blue)
+![Python](https://img.shields.io/badge/python-3.x-blue)
+![License](https://img.shields.io/badge/license-BSL%201.1-orange)
+![Mode](https://img.shields.io/badge/mode-local--first-green)
 
-It creates tamper-evident records for AI-assisted work by recording the prompt, output, timestamp, metadata and a SHA-256 integrity hash, then producing client-ready reports that can be checked later.
+**Local-first AI evidence receipts for audit, compliance and dispute preparation.**
 
-The goal is simple:
+EchoCert creates tamper-evident records for AI-assisted work. It records the prompt, output, timestamp, metadata and a SHA-256 integrity hash, then generates reports that can be checked later.
 
-**Create evidence that an AI interaction, file, or output has not been silently altered after the fact.**
+> **Problem:** AI outputs are easy to copy, edit, lose, misquote or dispute.
+>
+> **EchoCert answer:** create a simple evidence record showing what existed, when it existed and whether it was altered afterwards.
+
+---
+
+## What EchoCert is
+
+EchoCert is a lightweight evidence layer for AI workflows.
+
+It helps users create records around:
+
+- AI prompts and outputs
+- Business AI decisions
+- Research notes
+- Compliance reviews
+- Internal audit trails
+- Dispute preparation files
+- Client-facing evidence packs
+
+It is **not** a truth machine and it does not inspect private model internals. It is a practical integrity and audit tool for the records around AI use.
 
 ---
 
 ## Public demo boundary
 
-This public repository is a working demonstration of EchoCert's evidence workflow.
+This public repository is a working demonstration of the EchoCert evidence workflow.
 
-It is intended to show the product concept, basic receipt generation, verification, reporting and tamper-detection flow.
+It shows the public concept, basic receipt generation, verification, reporting and tamper-detection flow.
 
-The public version does not include private commercial logic, client systems, confidential workflows, signing infrastructure, advanced key management, proprietary scoring methods, or customer evidence.
+The public version does **not** include private commercial logic, client systems, confidential workflows, signing infrastructure, advanced key management, proprietary scoring methods or customer evidence.
 
 For clarity:
 
-- Public repository: demonstration, documentation and evaluation.
-- Private commercial build: production tooling, protected workflows and licensed deployments.
+- **Public repository:** demonstration, documentation and evaluation.
+- **Private commercial build:** production tooling, protected workflows and licensed deployments.
 
 See [`PRIVATE_PUBLIC_BOUNDARY.md`](PRIVATE_PUBLIC_BOUNDARY.md) for the public/private split.
+
+---
+
+## Core workflow
+
+1. Capture a prompt and AI output.
+2. Generate a deterministic receipt.
+3. Seal the receipt with a SHA-256 integrity hash.
+4. Verify later whether the record still matches.
+5. Produce a human-readable report for review.
 
 ---
 
@@ -36,6 +69,20 @@ See [`PRIVATE_PUBLIC_BOUNDARY.md`](PRIVATE_PUBLIC_BOUNDARY.md) for the public/pr
 - Generates client-ready HTML audit reports
 - Runs locally with Python
 - Supports evidence pack style workflows for audits, compliance reviews and dispute preparation
+
+---
+
+## Who it is for
+
+EchoCert is aimed at people and teams who need clearer records of AI-assisted work:
+
+- AI governance teams
+- Compliance teams
+- Legal support and dispute preparation
+- Digital evidence and audit consultants
+- Researchers using AI tools
+- Businesses adopting AI internally
+- Freelancers and agencies producing AI-assisted client work
 
 ---
 
@@ -133,6 +180,18 @@ Example offer:
 **EchoCert Quick Audit** — customer sends one AI prompt/output pair, you return an integrity report and evidence notes.
 
 Commercial or production use requires a separate commercial licence. See [`LICENSE`](LICENSE) and [`LICENSING.md`](LICENSING.md).
+
+---
+
+## Product documents
+
+- [`PRODUCT.md`](PRODUCT.md) — product overview
+- [`PITCH.md`](PITCH.md) — short commercial pitch
+- [`PILOT.md`](PILOT.md) — pilot offer structure
+- [`ROADMAP.md`](ROADMAP.md) — public roadmap
+- [`LICENSING.md`](LICENSING.md) — licensing overview
+- [`SECURITY.md`](SECURITY.md) — security and public repository safety
+- [`PRIVATE_PUBLIC_BOUNDARY.md`](PRIVATE_PUBLIC_BOUNDARY.md) — what stays public vs private
 
 ---
 
