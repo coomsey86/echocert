@@ -1,63 +1,93 @@
-# EchoCert — Deterministic Audit Receipts for LLM Outputs
+# EchoCert — AI Evidence Receipts
 
-## The Problem
+## One-line pitch
 
-LLM outputs change over time due to:
-- model updates
-- safety tuning
-- infrastructure changes
-
-Most platforms rely on internal logs that are:
-- mutable
-- non-deterministic
-- unverifiable by third parties
-
-This creates risk in regulated, legal, and safety-critical contexts.
+EchoCert creates tamper-evident receipts for AI prompts, outputs and files so organisations can prove what existed, when it existed and whether it changed later.
 
 ---
 
-## What EchoCert Is
+## The problem
 
-EchoCert is a deterministic audit engine that:
-- treats prompts and outputs as static artifacts
-- generates tamper-evident hashes
-- produces immutable receipts
-- enables drift and delta comparison over time
+AI is being used inside businesses, legal workflows, research, compliance reviews and client work — but the records around that work are often weak.
 
-EchoCert does NOT:
-- judge correctness
-- evaluate alignment
-- inspect model internals
+Common problems:
 
-It produces evidence, not opinions.
+- Prompts and outputs get copied into chats, notes and documents with no evidence trail.
+- AI systems change over time, making old outputs hard to verify.
+- Screenshots can be edited or taken out of context.
+- Internal platform logs are not always available to the user or customer.
+- Businesses need clearer audit records before AI use becomes a dispute.
 
 ---
 
-## Why Determinism Matters
+## What EchoCert does
 
-If two parties hash the same output, they get the same result.
-This enables:
-- independent verification
-- audit trails
-- dispute resolution
-- regulatory evidence
+EchoCert treats prompts, outputs and related files as evidence artefacts.
 
----
+It can:
 
-## Why External Audit Matters
-
-Internal logs are controlled by the same entity that changes the model.
-EchoCert creates a neutral, external audit surface.
+- Record prompt/output pairs
+- Generate deterministic JSON receipts
+- Seal records with SHA-256 hashes
+- Verify whether a record has changed
+- Compare versions and produce diffs
+- Generate human-readable audit reports
+- Support evidence pack style workflows
 
 ---
 
-## Use Cases
+## What EchoCert does not do
 
-- Internal regression tracking
-- Red-team and safety investigations
-- Compliance and governance evidence
-- Incident response
-- Liability protection
+EchoCert does not:
 
-EchoCert is infrastructure, not a policy engine.
+- Prove that an AI output is true
+- Prove legal authorship by itself
+- Judge model alignment
+- Inspect private model internals
+- Replace legal or compliance advice
 
+EchoCert produces evidence records, not opinions.
+
+---
+
+## Why it matters
+
+If an AI-assisted decision, report, message, analysis or client deliverable is later challenged, the first question becomes:
+
+**What exactly was generated, when was it generated, and has it changed since?**
+
+EchoCert is built to answer that question clearly.
+
+---
+
+## Who could use it
+
+- AI governance teams
+- Compliance teams
+- Legal support and dispute preparation teams
+- Digital evidence consultants
+- Internal audit teams
+- Researchers
+- AI agencies and consultants
+- Businesses adopting AI tools
+
+---
+
+## Commercial angle
+
+EchoCert can be offered as:
+
+- A desktop audit tool
+- A managed evidence-pack service
+- A compliance-support workflow
+- A business AI documentation layer
+- A white-label or licensed component
+- A professional service for prompt/output review
+
+---
+
+## Public demo boundary
+
+This repository demonstrates the public workflow only. Private commercial logic, protected workflows, client material and production-only implementation details are not included.
+
+See [`PRIVATE_PUBLIC_BOUNDARY.md`](PRIVATE_PUBLIC_BOUNDARY.md).
