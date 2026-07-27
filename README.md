@@ -1,92 +1,143 @@
 # EchoCert
 
-![Status](https://img.shields.io/badge/status-public%20prototype-blue)
+![Status](https://img.shields.io/badge/status-active%20pilot%20development-blue)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
 ![License](https://img.shields.io/badge/license-BSL%201.1-orange)
 ![Mode](https://img.shields.io/badge/mode-local--first-green)
 
-**Local-first AI evidence receipts for audit, compliance and dispute preparation.**
+**Local-first digital evidence integrity for files, photos, video and AI records.**
 
-EchoCert creates tamper-evident records for AI-assisted work. It records the prompt, output, timestamp, metadata and a SHA-256 integrity hash, then generates reports that can be checked later.
+EchoCert creates tamper-evident integrity records using SHA-256, structured receipts and human-readable reports. It is designed to help people preserve an original digital file, record what was checked, and later verify whether the file still matches the recorded hash.
 
-> **Problem:** AI outputs are easy to copy, edit, lose, misquote or dispute.
+> **Problem:** important digital evidence is easy to copy, rename, edit, compress, re-export, lose or dispute.
 >
-> **EchoCert answer:** create a simple evidence record showing what existed, when it existed and whether it was altered afterwards.
+> **EchoCert answer:** preserve the original where possible, create an integrity receipt, and make later verification simple and explicit.
 
 ---
 
-## What EchoCert is
+## Current product direction — July 2026
 
-EchoCert is a lightweight evidence layer for AI workflows.
+EchoCert is being developed as one local-first evidence ecosystem with two interfaces:
 
-It helps users create records around:
+### EchoCert Elite — Windows desktop
 
-- AI prompts and outputs
-- Business AI decisions
-- Research notes
-- Compliance reviews
-- Internal audit trails
-- Dispute preparation files
-- Client-facing evidence packs
+The private controlled-pilot build, **EchoCert Elite v0.9.4**, has demonstrated:
 
-It is **not** a truth machine and it does not inspect private model internals. It is a practical integrity and audit tool for the records around AI use.
+- SHA-256 hashing of files
+- Structured JSON receipts
+- PDF and TXT reports
+- Evidence Pack ZIP creation
+- Receipt/file verification
+- Case and project metadata
+- Local document storage
+- UTC/local timestamp recording with timezone information
+- Explicit clock-source / timestamp-status disclosure
+- Windows installation and clean-machine testing
+
+Desktop is intended to remain the professional command centre for certification, reporting, evidence packs, case workflows, audit work and later team/business features.
+
+### EchoCert Mobile — Android companion
+
+A private Android development build has been physically tested on a Samsung device for:
+
+- Photo capture
+- Video capture
+- Preservation of the captured original in the app evidence folders
+- Automatic SHA-256 integrity receipt creation
+- One-tap re-hash verification
+- Clear integrity-confirmed results when the later file matches
+
+The mobile app is a development companion, not a public production release.
+
+**Core principle:**
+
+> **One platform. Two interfaces. One evidence format.**
 
 ---
 
-## Public demo boundary
+## What the public repository contains
 
-This public repository is a working demonstration of the EchoCert evidence workflow.
+This repository is the **public demonstration and documentation layer** of EchoCert.
 
-It shows the public concept, basic receipt generation, verification, reporting and tamper-detection flow.
+It demonstrates the earlier AI prompt/output receipt workflow and the core integrity concepts that continue into the wider product:
 
-The public version does **not** include private commercial logic, client systems, confidential workflows, signing infrastructure, advanced key management, proprietary scoring methods or customer evidence.
-
-For clarity:
-
-- **Public repository:** demonstration, documentation and evaluation.
-- **Private commercial build:** production tooling, protected workflows and licensed deployments.
-
-See [`PRIVATE_PUBLIC_BOUNDARY.md`](PRIVATE_PUBLIC_BOUNDARY.md) for the public/private split.
-
----
-
-## Core workflow
-
-1. Capture a prompt and AI output.
+1. Capture or select a record/file.
 2. Generate a deterministic receipt.
-3. Seal the receipt with a SHA-256 integrity hash.
-4. Verify later whether the record still matches.
+3. Seal relevant data with SHA-256.
+4. Verify later whether the stored data still matches.
 5. Produce a human-readable report for review.
 
----
+The public repository does **not** contain the full EchoCert Elite controlled-pilot build, the Android commercial/development build, customer evidence, private keys, signing infrastructure or protected production workflows.
 
-## What it does
-
-- Creates deterministic JSON receipts
-- Seals receipts with SHA-256 hashes
-- Verifies whether files or receipts were modified later
-- Produces diff reports between two receipts
-- Generates client-ready HTML audit reports
-- Runs locally with Python
-- Supports evidence pack style workflows for audits, compliance reviews and dispute preparation
+See [`PRIVATE_PUBLIC_BOUNDARY.md`](PRIVATE_PUBLIC_BOUNDARY.md).
 
 ---
 
-## Who it is for
+## What EchoCert can help establish
 
-EchoCert is aimed at people and teams who need clearer records of AI-assisted work:
+EchoCert is designed to help answer practical integrity questions such as:
 
-- AI governance teams
-- Compliance teams
+- What file or record was checked?
+- What SHA-256 digest was recorded for it?
+- What metadata and timestamp were recorded at that moment?
+- Does the later file still produce the same digest?
+- Has a stored receipt or record changed since it was sealed?
+
+A matching SHA-256 digest is strong evidence that the checked bytes are unchanged from the bytes represented by the recorded digest.
+
+---
+
+## What EchoCert does **not** prove by itself
+
+EchoCert is deliberately conservative about its claims.
+
+It does **not** by itself prove:
+
+- that a photograph or video depicts a true real-world event
+- who created a file
+- legal ownership or authorship
+- that a local system clock was independently trustworthy
+- an independently trusted creation time unless an external timestamp authority is used
+- a complete chain of custody without the surrounding process and evidence
+- court admissibility, regulatory approval or forensic accreditation
+- that an AI output is true
+
+Where the timestamp comes only from the local device clock, that limitation should be stated clearly rather than hidden.
+
+---
+
+## Current and intended use cases
+
+EchoCert is aimed at people and teams who need clearer digital evidence records, including:
+
 - Legal support and dispute preparation
-- Digital evidence and audit consultants
-- Researchers using AI tools
-- Businesses adopting AI internally
-- Freelancers and agencies producing AI-assisted client work
+- Compliance and internal audit
+- Inspection and field documentation
+- Property and condition records
+- Insurance-support documentation
+- Construction and trades
+- Investigators and consultants
+- Researchers
+- AI governance and AI-assisted workflow records
+- Small organisations that need local-first evidence handling
+
+AI prompt/output auditing remains a supported use case and part of the project's technical history, but it is **not the whole product**.
 
 ---
 
-## Quick Start
+## Public demo features
+
+The code in this repository currently demonstrates:
+
+- Deterministic JSON receipt creation
+- SHA-256 integrity hashing
+- Receipt verification
+- Diff reports between records
+- Human-readable HTML audit reports
+- Local Python operation
+- Evidence-pack style workflow concepts
+
+### Quick start
 
 Clone:
 
@@ -113,104 +164,58 @@ Verify the receipt:
 python echocert.py verify receipts/receipt.json
 ```
 
-Generate a client-ready HTML report:
+Generate a human-readable HTML report:
 
 ```bash
 python echocert_report.py receipts/receipt.json --out reports/audit_report.html
 ```
 
-Open `reports/audit_report.html` in a browser. Use **Print -> Save as PDF** to create a PDF report.
+On Windows, `run_demo.bat` runs the public demo workflow.
 
 ---
 
-## Windows demo
+## Product development priorities
 
-Double-click:
+The current focus is not feature-count for its own sake. The priority is:
 
-```text
-run_demo.bat
-```
+1. **Simplify the user experience**
+2. **Preserve originals safely**
+3. **Harden integrity and verification workflows**
+4. **Test failure cases and edge cases**
+5. **Validate the product with real pilot users**
+6. **Improve desktop/mobile interoperability**
+7. **Add stronger timestamp/provenance options where justified**
+8. **Remain standards-first and avoid unnecessary proprietary lock-in**
 
-This creates:
-
-- example prompt/output files
-- a sealed receipt
-- a verification check
-- an HTML audit report
-
----
-
-## Example use cases
-
-### AI evidence
-
-Store prompts and outputs for future verification.
-
-### Compliance
-
-Keep records of AI-assisted workflows for review, audit and governance.
-
-### Internal audits
-
-Compare outputs between versions, tools or workflow changes.
-
-### Research
-
-Track prompt evolution and output changes over time.
-
-### Dispute preparation
-
-Create clear records showing what was generated, when it was generated and whether later tampering is detectable.
+Future interoperability may include trusted timestamp services and standards such as C2PA / Content Credentials where they genuinely strengthen the evidence model.
 
 ---
 
-## Commercial services
+## Licensing
 
-EchoCert can support services such as:
+This public repository is **source-available under the Business Source License 1.1 (BSL 1.1)**. It should not be described simply as unrestricted open source.
 
-- AI Audit Reports
-- Evidence Packs
-- Prompt / Output Review
-- AI Workflow Reviews
-- Business AI Documentation
-- Compliance-support documentation
-
-Example offer:
-
-**EchoCert Quick Audit** — customer sends one AI prompt/output pair, you return an integrity report and evidence notes.
-
-Commercial or production use requires a separate commercial licence. See [`LICENSE`](LICENSE) and [`LICENSING.md`](LICENSING.md).
+Commercial or production use requires a separate commercial licence under the current licence terms. See [`LICENSE`](LICENSE) and [`LICENSING.md`](LICENSING.md).
 
 ---
 
 ## Product documents
 
-- [`PRODUCT.md`](PRODUCT.md) — product overview
-- [`PITCH.md`](PITCH.md) — short commercial pitch
-- [`PILOT.md`](PILOT.md) — pilot offer structure
+- [`PRODUCT.md`](PRODUCT.md) — current product definition
+- [`PITCH.md`](PITCH.md) — commercial positioning
+- [`PILOT.md`](PILOT.md) — pilot direction
 - [`ROADMAP.md`](ROADMAP.md) — public roadmap
+- [`FAQ.md`](FAQ.md) — common questions and limits
 - [`LICENSING.md`](LICENSING.md) — licensing overview
-- [`SECURITY.md`](SECURITY.md) — security and public repository safety
-- [`PRIVATE_PUBLIC_BOUNDARY.md`](PRIVATE_PUBLIC_BOUNDARY.md) — what stays public vs private
-
----
-
-## Important limits
-
-EchoCert does **not**:
-
-- Prove that an AI output is true
-- Prove legal authorship ownership by itself
-- Inspect private model internals
-- Replace legal advice
-- Replace professional compliance review
-
-It is an evidence and audit tool. It helps prove integrity, continuity and tamper detection around AI records.
+- [`SECURITY.md`](SECURITY.md) — repository security guidance
+- [`PRIVATE_PUBLIC_BOUNDARY.md`](PRIVATE_PUBLIC_BOUNDARY.md) — public/private split
 
 ---
 
 ## Status
 
-Version: Public working prototype.
+**Public repository:** working demonstration of EchoCert's receipt, verification, diff and reporting foundations.
 
-This repo demonstrates receipt creation, verification, diffing and HTML report generation while keeping private commercial material out of the public release.
+**Private product development:** EchoCert Elite v0.9.4 is controlled-pilot ready; the Android companion has passed physical-device photo/video capture, receipt and re-verification tests.
+
+The next proof point is real-world pilot validation, security hardening and UX refinement — not simply adding more features.
