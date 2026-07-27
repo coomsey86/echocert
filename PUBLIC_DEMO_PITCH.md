@@ -2,38 +2,56 @@
 
 ## One-line explanation
 
-EchoCert creates tamper-evident receipts and audit reports for AI prompts and outputs.
+EchoCert is a local-first digital evidence integrity system. This public demo uses safe AI prompt/output examples to demonstrate the same receipt, SHA-256 verification and tamper-detection foundations used by the wider product.
 
-## The problem
+---
 
-AI systems produce text that can be copied, edited, deleted, regenerated, or disputed later. Businesses, workers, and investigators need a simple way to prove what was recorded at the time.
+## The wider problem
 
-## The demo
+Important digital files — photos, videos, documents and AI-assisted records — can be copied, edited, renamed, compressed, re-exported or disputed later.
 
-1. Record an AI prompt and output.
-2. Create a JSON receipt.
-3. Generate a SHA-256 hash.
-4. Verify the receipt later.
-5. Change one word and watch verification fail.
-6. Produce a human-readable audit report.
+People need a simple way to preserve an integrity record and check later whether a digital file or receipt still matches what was recorded.
+
+---
+
+## What this public demo shows
+
+The repository's safe demo workflow currently uses prompt/output records because they are easy to reproduce without exposing real customer or legal evidence.
+
+The demo shows how EchoCert can:
+
+1. Record example data.
+2. Create a deterministic JSON receipt.
+3. Generate SHA-256 integrity data.
+4. Verify the record later.
+5. Detect a changed record.
+6. Produce a human-readable report.
+
+---
+
+## How this relates to the current product
+
+The private product direction is broader than the public AI demo:
+
+- **EchoCert Elite** — Windows desktop evidence, receipt, verification, report and evidence-pack workflow.
+- **EchoCert Mobile** — Android field-capture companion for photo/video capture and re-verification.
+
+AI prompt/output auditing remains one supported use case rather than the entire product.
+
+---
 
 ## The value
 
-EchoCert does not prove the AI was correct. It proves whether the evidence record stayed intact.
+EchoCert does not claim that a SHA-256 hash proves truth, authorship or an independently trusted time.
 
-Useful for:
+It helps answer a narrower and useful integrity question:
 
-- AI audit trails
-- internal compliance records
-- evidence packs
-- prompt/output logging
-- dispute preparation
-- tamper detection
+**Does the digital file or record checked later still match the integrity value recorded earlier?**
+
+---
 
 ## Public-safe statement
 
-This public MVP shows the outcome and integrity mechanism only. It does not reveal private Echo Framework memory systems, commercial validation logic, key management, advanced ingestion, or proprietary workflow design.
+This repository exposes demonstration code, documentation and public-safe integrity concepts only. It does not expose the complete private EchoCert Elite/Mobile builds, customer evidence, credentials, signing infrastructure or protected production implementation details.
 
-## Attribution
-
-Created by Paul McCombs / Coomsy under the EchoCert / Echo Framework project.
+See [`PRIVATE_PUBLIC_BOUNDARY.md`](PRIVATE_PUBLIC_BOUNDARY.md).
