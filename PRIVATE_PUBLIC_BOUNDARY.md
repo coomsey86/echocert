@@ -1,79 +1,101 @@
 # EchoCert Private / Public Boundary
 
-This document separates what can be safely shown in the public demo from what should remain private.
+This document separates what can be safely shown in the public repository from what should remain private.
 
-The rule is simple: **sell the outcome, not the engine.**
+The rule is simple:
+
+> **Show enough to prove the product is real. Do not publish the parts that create unnecessary security, privacy or commercial risk.**
 
 ---
 
 ## Safe to show publicly
 
-- Basic prompt/output receipt creation
-- Canonical JSON receipt structure
-- SHA-256 hash generation
-- Verification pass/fail examples
-- Tamper demo using changed output text
-- Human-readable HTML reports
-- General positioning as an AI evidence and audit tool
-- Demo receipts created from non-sensitive example data
-- Documentation explaining what the tool does and does not prove
-- Screenshots or sample reports that contain no real client, legal, personal, health, financial or family data
+Public-safe material may include:
+
+- High-level description of EchoCert as a local-first digital evidence integrity system
+- The existence and tested status of EchoCert Elite desktop and EchoCert Mobile
+- Public-safe feature summaries
+- SHA-256 integrity concepts
+- Basic deterministic receipt examples
+- Verification pass/fail demonstrations using synthetic or non-sensitive files
+- Human-readable demo reports
+- Public roadmap milestones
+- High-level desktop/mobile workflow descriptions
+- Honest statements about what hashing and timestamps do and do not prove
+- Screenshots containing only synthetic or intentionally public demo data
+- Public licensing and commercial contact information
+- General use cases and buyer positioning
+- Earlier AI prompt/output receipt demonstrations
 
 ---
 
 ## Keep private
 
-- Private framework files, memory files or personal continuity notes
-- Personal history, legal, health, family, financial or trauma-related notes
-- Full token ledgers unless intentionally published
-- Private signing keys, salts, secrets, API keys or certificates
-- Advanced key management
-- Commercial pricing logic that is not ready for release
-- Any private ingestion pipeline
-- Any proprietary model/session context packing
-- Any private scoring, ranking, classification or review logic
-- Any customer data
-- Any real legal case evidence unless approved by the right professional adviser
-- Any document that contains phone numbers, addresses, passwords, recovery phrases or private account details
-- Any production-only workflow that gives away the commercial advantage
+Do not publish:
+
+- Client or pilot evidence
+- Real legal evidence unless intentionally approved for publication after appropriate review
+- Personal, family, health, financial or trauma-related material
+- Passwords, API tokens, recovery phrases or account secrets
+- Private keys, certificates, signing material, salts or keystores
+- Production signing or timestamp credentials
+- Mobile/desktop deployment credentials
+- Private framework or continuity files
+- Private commercial source code not intentionally released
+- Protected production workflows or implementation details
+- Internal vulnerability findings before they are safely resolved/disclosed
+- Customer lists or confidential pilot identities
+- Internal pricing negotiations or unpublished commercial terms
+- Private ingestion pipelines or infrastructure configuration
+- Any proprietary scoring, ranking or review logic
+- Anything that would materially make impersonation, compromise or cloning easier without helping a buyer understand the product
 
 ---
 
 ## Public message
 
-The public demo demonstrates tamper-evident AI evidence receipts. It does not expose private commercial systems, sensitive personal data, production client material or protected implementation details.
+The public repository demonstrates EchoCert's evidence-integrity foundations and documents the current product direction.
+
+The complete EchoCert Elite controlled-pilot build and Android companion are **not** published here.
+
+Public material can accurately state that the private desktop build has demonstrated professional hashing, receipt, report, evidence-pack and verification workflows, and that the Android companion has demonstrated physical-device photo/video capture, SHA-256 receipt creation and re-verification.
+
+Those statements should not be interpreted as court approval, forensic accreditation, regulatory certification or an independently trusted timestamp unless such status is separately obtained.
 
 ---
 
 ## Commercial positioning
 
-Sell the outcome, not the engine:
+Sell the outcome rather than unnecessary implementation detail:
 
-- AI evidence packs
-- Tamper-evident AI receipts
-- Prompt/output audit trails
-- Compliance-support documentation
-- Dispute preparation records
-- Internal AI governance records
-- Local-first evidence handling
+- Preserve important digital originals
+- Create SHA-256 integrity receipts
+- Verify later whether files still match
+- Capture field evidence on mobile
+- Review, organise and report on desktop
+- Support inspection, dispute, compliance and audit workflows
+- Support AI prompt/output audit records where relevant
+- Keep core evidence workflows local-first
 
 ---
 
 ## Release checklist before publishing anything
 
-Before committing or uploading files, check that the material contains none of the following:
+Before committing or uploading material, check that it contains none of the following:
 
-- Real client data
-- Real legal evidence
-- Private family, health or financial information
-- Phone numbers or private addresses
-- Passwords, tokens, keys or recovery phrases
-- Internal-only pricing or sales logic
-- Proprietary commercial algorithms or scoring logic
-- Anything that should only exist in the private commercial build
+- Real client/pilot data
+- Private legal evidence
+- Personal, health, family or financial information
+- Private addresses or unnecessary phone numbers
+- Passwords, tokens, keys, certificates or recovery phrases
+- Credentials embedded in screenshots or logs
+- Production signing/timestamp secrets
+- Internal-only pricing negotiations
+- Protected source or workflow logic that does not need to be public
+- Anything that contradicts the current product claims or exaggerates what the technology proves
 
 ---
 
 ## Reminder
 
-A public demo should prove usefulness without giving away private implementation details.
+A public demonstration should make EchoCert understandable, credible and discoverable without turning the public repository into the commercial product itself.
