@@ -199,11 +199,14 @@ Commercial or production use requires a separate commercial licence under the cu
 
 ---
 
-## Product documents
+## Product and commercial documents
 
 - [`PRODUCT.md`](PRODUCT.md) — current product definition
 - [`PITCH.md`](PITCH.md) — commercial positioning
-- [`PILOT.md`](PILOT.md) — pilot direction
+- [`WHO_BUYS_ECHOCERT.md`](WHO_BUYS_ECHOCERT.md) — priority buyers and use cases
+- [`PILOT.md`](PILOT.md) — controlled pilot structure and success criteria
+- [`PRICING.md`](PRICING.md) — indicative founding pricing tests
+- [`OFFER.md`](OFFER.md) — early commercial offer
 - [`ROADMAP.md`](ROADMAP.md) — public roadmap
 - [`FAQ.md`](FAQ.md) — common questions and limits
 - [`LICENSING.md`](LICENSING.md) — licensing overview
