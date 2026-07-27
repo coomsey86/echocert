@@ -1,93 +1,131 @@
-# EchoCert — AI Evidence Receipts
+# EchoCert — Digital Evidence Integrity
 
 ## One-line pitch
 
-EchoCert creates tamper-evident receipts for AI prompts, outputs and files so organisations can prove what existed, when it existed and whether it changed later.
+EchoCert is a local-first desktop and mobile evidence-integrity system that helps people preserve digital originals, create SHA-256 receipts and later verify whether files still match.
 
 ---
 
 ## The problem
 
-AI is being used inside businesses, legal workflows, research, compliance reviews and client work — but the records around that work are often weak.
+Important digital evidence is now routinely created on phones and computers, but the evidence trail around it is often weak.
 
-Common problems:
+Common problems include:
 
-- Prompts and outputs get copied into chats, notes and documents with no evidence trail.
-- AI systems change over time, making old outputs hard to verify.
-- Screenshots can be edited or taken out of context.
-- Internal platform logs are not always available to the user or customer.
-- Businesses need clearer audit records before AI use becomes a dispute.
+- Photos and videos are copied, compressed, re-exported or edited.
+- Documents are renamed or changed with no clear integrity record.
+- Screenshots are easy to dispute.
+- Field workers need a simple way to preserve what they captured.
+- Small organisations often cannot justify heavyweight forensic tooling.
+- AI-assisted work can be copied or changed without a reliable record of the original output.
+
+The technical question is often simple:
+
+**Is this later file the same digital file that was recorded earlier?**
 
 ---
 
 ## What EchoCert does
 
-EchoCert treats prompts, outputs and related files as evidence artefacts.
+EchoCert creates a practical integrity trail around digital files.
 
-It can:
+The wider product direction includes:
 
-- Record prompt/output pairs
-- Generate deterministic JSON receipts
-- Seal records with SHA-256 hashes
-- Verify whether a record has changed
-- Compare versions and produce diffs
-- Generate human-readable audit reports
-- Support evidence pack style workflows
-
----
-
-## What EchoCert does not do
-
-EchoCert does not:
-
-- Prove that an AI output is true
-- Prove legal authorship by itself
-- Judge model alignment
-- Inspect private model internals
-- Replace legal or compliance advice
-
-EchoCert produces evidence records, not opinions.
+- Preserve original files where possible
+- Generate SHA-256 hashes
+- Create structured integrity receipts
+- Re-hash files later and compare the result
+- Produce human-readable reports
+- Build evidence packs
+- Record case/project metadata
+- Support field photo/video capture on mobile
+- Keep core workflows local-first
 
 ---
 
-## Why it matters
+## Two interfaces, one evidence model
 
-If an AI-assisted decision, report, message, analysis or client deliverable is later challenged, the first question becomes:
+### EchoCert Elite — Windows desktop
 
-**What exactly was generated, when was it generated, and has it changed since?**
+The controlled-pilot build is intended for professional evidence, reporting, verification, case and evidence-pack workflows.
 
-EchoCert is built to answer that question clearly.
+### EchoCert Mobile — Android companion
+
+The development companion is intended for field capture and fast verification. Photo and video capture → original preservation → receipt creation → re-hash verification has been demonstrated on a physical Android device.
+
+> **One platform. Two interfaces. One evidence format.**
+
+---
+
+## Honest evidence claims
+
+EchoCert is built to be useful without pretending a hash proves more than it does.
+
+A matching SHA-256 digest can strongly support that the checked bytes are unchanged from the bytes represented by the recorded digest.
+
+EchoCert does **not** by itself prove:
+
+- that a photograph or video depicts a true event
+- who created the file
+- legal ownership or authorship
+- independently trusted time when only a local device clock was used
+- a complete chain of custody
+- court admissibility, regulatory approval or forensic accreditation
+- that an AI output is true
+
+Where a timestamp is unanchored local system time, that should be disclosed clearly.
 
 ---
 
 ## Who could use it
 
-- AI governance teams
-- Compliance teams
-- Legal support and dispute preparation teams
-- Digital evidence consultants
-- Internal audit teams
+Potential markets include:
+
+- Legal support and dispute preparation
+- Compliance and internal audit
+- Inspection and field documentation
+- Property and condition reporting
+- Insurance-support documentation
+- Construction and trades
+- Investigators and consultants
 - Researchers
-- AI agencies and consultants
-- Businesses adopting AI tools
+- AI governance and AI-assisted workflow records
+- Small organisations needing straightforward local-first evidence tools
 
 ---
 
-## Commercial angle
+## Why the desktop + mobile combination matters
 
-EchoCert can be offered as:
+Many evidence workflows start in the field but are reviewed, packaged or reported later on a computer.
 
-- A desktop audit tool
-- A managed evidence-pack service
-- A compliance-support workflow
-- A business AI documentation layer
-- A white-label or licensed component
-- A professional service for prompt/output review
+EchoCert is being designed around that reality:
+
+**Capture in the field → preserve and receipt → verify → review/package on desktop.**
+
+The product aims to make cryptographic integrity usable without requiring the end user to understand cryptography.
 
 ---
 
-## Public demo boundary
+## Commercial direction
 
-This repository demonstrates the public workflow only. Private commercial logic, protected workflows, client material and production-only implementation details are not included.
+EchoCert may be offered through:
+
+- Professional desktop licences
+- Mobile companion access
+- Controlled pilots
+- Evidence-pack and verification services
+- Business/team licensing
+- Managed integrity workflows
+- Integration or licensed components where appropriate
+
+Commercial success depends on pilot validation, security hardening, UX quality and distribution. The product should earn adoption through reliable real-world use rather than inflated claims.
+
+---
+
+## Public repository boundary
+
+This repository is a source-available public demonstration of core receipt and verification concepts. It does not contain the full private EchoCert Elite or Android product, client material, private keys, production signing infrastructure or protected implementation details.
+
+AI prompt/output receipt auditing remains a supported EchoCert use case and part of the project's history, but EchoCert is no longer positioned solely as an LLM audit tool.
 
 See [`PRIVATE_PUBLIC_BOUNDARY.md`](PRIVATE_PUBLIC_BOUNDARY.md).
