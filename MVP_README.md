@@ -1,27 +1,69 @@
-# EchoCert Public-Safe MVP
+# EchoCert Public-Safe MVP Demo
 
-**Creator:** Paul McCombs / Coomsy  
-**Project:** EchoCert / Echo Framework
+This file documents the compact public demonstration that helped establish EchoCert's receipt and verification foundations.
 
-EchoCert is a public-safe demonstration of tamper-evident AI evidence receipts.
+It is **not the complete current EchoCert product**.
 
-It records an AI prompt and AI output, creates a deterministic JSON receipt, seals it with a SHA-256 hash, verifies whether the receipt has changed, and generates a simple audit report.
+For the current product overview, start with [`README.md`](README.md).
 
-## What this proves
+---
 
-EchoCert proves **integrity**.
+## What this public MVP demonstrates
 
-It can show whether a recorded AI prompt/output receipt has remained unchanged since it was signed.
+The MVP uses a safe AI prompt/output example because it can be reproduced publicly without exposing customer, legal, photo or video evidence.
 
-## What this does not prove
+It demonstrates:
 
-EchoCert does not prove that the AI output is true, safe, lawful, or accurate. It does not replace legal, compliance, or security advice.
+- deterministic JSON receipt creation
+- SHA-256 integrity hashing
+- receipt verification
+- tamper detection
+- simple human-readable report generation
+
+These concepts remain part of the wider EchoCert evidence-integrity product.
+
+---
+
+## Current wider product direction
+
+EchoCert now comprises:
+
+- **EchoCert Elite** — private Windows desktop professional evidence workflow
+- **EchoCert Mobile** — private Android field-capture companion
+
+The current product direction covers files, photos, video and AI-assisted records rather than only AI prompt/output auditing.
+
+---
+
+## What the demo can establish
+
+The demo can show whether the recorded data still matches the integrity values represented by its receipt.
+
+It demonstrates **integrity checking**.
+
+---
+
+## What it does not establish
+
+It does not prove:
+
+- that the content is true
+- who created the content
+- legal ownership/authorship
+- independently trusted time when only a local clock is used
+- a complete chain of custody
+- court admissibility or forensic accreditation
+- that an AI answer is safe, lawful or accurate
+
+---
 
 ## Files
 
-- `echocert_mvp.py` - compact public-safe MVP
-- `run_mvp_demo.bat` - Windows demo runner
-- `run_mvp_demo.sh` - Mac/Linux demo runner
+- `echocert_mvp.py` — compact public-safe demonstration
+- `run_mvp_demo.bat` — Windows demo runner
+- `run_mvp_demo.sh` — Mac/Linux demo runner
+
+---
 
 ## Quick demo
 
@@ -37,6 +79,8 @@ Then open:
 reports/audit_report.html
 ```
 
+---
+
 ## Manual receipt
 
 ```bash
@@ -45,28 +89,20 @@ python echocert_mvp.py verify receipts/demo.json
 python echocert_mvp.py report receipts/demo.json --out reports/demo_report.html
 ```
 
-## Tamper test
+---
 
-Run:
+## Tamper test
 
 ```bash
 python echocert_mvp.py tamper-demo
 ```
 
-This creates:
+This creates a valid example and an intentionally altered example so verification behaviour can be demonstrated safely.
 
-- `receipts/original.json` - valid receipt
-- `receipts/tampered.json` - altered receipt
-
-The original should verify. The tampered version should fail because the AI output was changed from `30 days` to `60 days` while keeping the old hash.
+---
 
 ## Public-safe boundary
 
-This MVP intentionally exposes only the safe demonstration layer:
+This MVP intentionally exposes only demonstration material. It does not expose private EchoCert Elite/Mobile builds, client evidence, deployment credentials, signing infrastructure, private commercial source or protected production workflows.
 
-- canonical JSON
-- SHA-256 hashing
-- verification
-- report output
-
-It does not expose any private memory systems, advanced ingestion pipeline, commercial logic, signing keys, private token systems, or proprietary Echo Framework internals.
+See [`PRIVATE_PUBLIC_BOUNDARY.md`](PRIVATE_PUBLIC_BOUNDARY.md).
