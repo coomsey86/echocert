@@ -1,0 +1,18 @@
+{
+  "schema": "EVA-SUPERVISOR-STATUS-1",
+  "agent": "EVA Autonomous Agent",
+  "version": "2.0.0",
+  "connection": "NOT_CONNECTED_YET",
+  "safe_mode": false,
+  "autopilot": false,
+  "last_update_utc": "2026-08-15T20:12:17Z",
+  "task_counts": {
+    "queued": 0,
+    "running": 0,
+    "done": 0,
+    "error": 0
+  },
+  "alerts": ["LOCAL_AGENT_NOT_YET_CONNECTED"],
+  "evidence_chain_head": "GENESIS",
+  "note": "Public supervisor heartbeat only. No private task content, credentials, prompts, or evidence are published here."
+}
