@@ -1,0 +1,5 @@
+{
+  "schema": "EVA-REMOTE-COMMANDS-1",
+  "privacy_warning": "This repository is public. Put only non-sensitive high-level commands here. Use EVA's local dashboard for private details.",
+  "commands": []
+}
