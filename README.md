@@ -1,6 +1,6 @@
 # EchoCert
 
-![Status](https://img.shields.io/badge/status-active%20pilot%20development-blue)
+![Status](https://img.shields.io/badge/status-public%20demo%20%2B%20founding%20audit-blue)
 ![Python](https://img.shields.io/badge/python-3.x-blue)
 ![License](https://img.shields.io/badge/license-BSL%201.1-orange)
 ![Mode](https://img.shields.io/badge/mode-local--first-green)
@@ -15,7 +15,25 @@ EchoCert creates tamper-evident integrity records using SHA-256, structured rece
 
 ---
 
-## Current product direction — July 2026
+## Current commercial service — September 2026
+
+The current offer is the **EchoCert AI Evidence Audit — Founding Pilot**:
+
+- **£495 GBP**, one-time and paid upfront after written scope approval
+- One defined AI evidence question or incident
+- Up to **100 approved non-sensitive files or 2 GB**, whichever comes first
+- Target delivery within **seven business days** after payment, completed intake and accepted evidence
+- One factual or clerical correction round requested within five business days of delivery
+
+The customer receives an inventory, SHA-256 manifest and receipts, verification results, a findings report that separates observed facts from supported inference and unresolved claims, and a portable Evidence Pack with verification instructions.
+
+[View the official EchoCert service website](https://echocert-evidence.mccombsp86.chatgpt.site)
+
+This is a managed evidence-integrity service, not a promise that the private desktop or Android software is generally available. **Case Study 001 is a controlled method demonstration, not a paid-customer testimonial.**
+
+---
+
+## Product direction — September 2026
 
 EchoCert is being developed as one local-first evidence ecosystem with two interfaces:
 
@@ -47,7 +65,7 @@ A private Android development build has been physically tested on a Samsung devi
 - One-tap re-hash verification
 - Clear integrity-confirmed results when the later file matches
 
-The mobile app is a development companion, not a public production release.
+The mobile app is a development companion, not a public production release and not yet live on Google Play.
 
 **Core principle:**
 
@@ -182,7 +200,7 @@ The current focus is not feature-count for its own sake. The priority is:
 2. **Preserve originals safely**
 3. **Harden integrity and verification workflows**
 4. **Test failure cases and edge cases**
-5. **Validate the product with real pilot users**
+5. **Validate the service with paid, independently verifiable customer outcomes**
 6. **Improve desktop/mobile interoperability**
 7. **Add stronger timestamp/provenance options where justified**
 8. **Remain standards-first and avoid unnecessary proprietary lock-in**
@@ -204,9 +222,9 @@ Commercial or production use requires a separate commercial licence under the cu
 - [`PRODUCT.md`](PRODUCT.md) — current product definition
 - [`PITCH.md`](PITCH.md) — commercial positioning
 - [`WHO_BUYS_ECHOCERT.md`](WHO_BUYS_ECHOCERT.md) — priority buyers and use cases
-- [`PILOT.md`](PILOT.md) — controlled pilot structure and success criteria
-- [`PRICING.md`](PRICING.md) — indicative founding pricing tests
-- [`OFFER.md`](OFFER.md) — early commercial offer
+- [`PILOT.md`](PILOT.md) — current paid founding-pilot scope and acceptance rules
+- [`PRICING.md`](PRICING.md) — current £495 service price and payment boundary
+- [`OFFER.md`](OFFER.md) — current commercial offer and deliverables
 - [`ROADMAP.md`](ROADMAP.md) — public roadmap
 - [`FAQ.md`](FAQ.md) — common questions and limits
 - [`LICENSING.md`](LICENSING.md) — licensing overview
@@ -219,6 +237,8 @@ Commercial or production use requires a separate commercial licence under the cu
 
 **Public repository:** working demonstration of EchoCert's receipt, verification, diff and reporting foundations.
 
-**Private product development:** EchoCert Elite v0.9.4 is controlled-pilot ready; the Android companion has passed physical-device photo/video capture, receipt and re-verification tests.
+**Current paid offer:** EchoCert AI Evidence Audit — Founding Pilot, £495 GBP paid upfront after written scope approval. No paid customer outcome is claimed until a real payment and completed delivery are independently evidenced.
+
+**Private product development:** EchoCert Elite v0.9.4 is a controlled-pilot build; the Android companion has passed recorded physical-device photo/video capture, receipt and re-verification tests, but is not a public production release.
 
 The next proof point is real-world pilot validation, security hardening and UX refinement — not simply adding more features.

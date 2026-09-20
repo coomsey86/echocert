@@ -19,15 +19,14 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Make test scripts executable
-        run: |
-          chmod +x tests/test_smoke.sh
-          chmod +x tests/test_tamper.sh
-
       - name: Run smoke test
         run: |
-          ./tests/test_smoke.sh
+          bash tests/test_smoke.sh
 
       - name: Run tamper test
         run: |
-          ./tests/test_tamper.sh
+          bash tests/test_tamper.sh
+
+      - name: Check commercial document consistency
+        run: |
+          bash tests/test_commercial_docs.sh

@@ -1,106 +1,107 @@
-# EchoCert — Controlled Pilot Offer
+# EchoCert AI Evidence Audit — Founding Pilot
 
 ## Purpose
 
-The pilot exists to answer one commercial question:
+The current founding pilot is a paid, bounded evidence-integrity service. Its purpose is to answer one agreed question from retained records and deliver a pack another person can inspect and verify.
 
-**Does EchoCert make a real evidence workflow simpler, clearer and easier to defend than the user's current process?**
+It is not a free product trial, a feature showcase or a claim that the private software is generally released.
 
-The pilot is not a feature showcase. It is a structured test of real-world value.
-
----
-
-## Best-fit pilot users
-
-Initial pilots should favour:
-
-- Inspection and field-service professionals
-- Construction / QA / condition-record workflows
-- Legal support and dispute-preparation users
-- Compliance / internal audit users
-- Investigators and specialist consultants
-
-AI prompt/output audit users remain welcome where that workflow is relevant.
+[View the official EchoCert service website](https://echocert-evidence.mccombsp86.chatgpt.site)
 
 ---
 
-## Pilot scope
+## Commercial scope
 
-Typical duration: **2–4 weeks**.
+**£495 GBP, one-time and paid upfront after written scope approval.**
 
-A pilot should use a small number of genuine, non-sensitive or appropriately authorised workflows rather than attempting an organisation-wide deployment.
+Each accepted pilot covers:
 
-The exact feature set depends on the controlled build supplied, but the intended workflow is:
+- One defined AI evidence question or incident
+- One completed, representative non-production workflow or record set
+- Up to **100 approved non-sensitive files or 2 GB**, whichever comes first
+- Target delivery within **seven business days** after cleared payment, completed intake and evidence acceptance
+- One factual or clerical correction round requested within five business days of delivery
 
-1. Capture or select an important file.
-2. Preserve the original where possible.
-3. Create a SHA-256 integrity receipt.
-4. Re-verify the file later.
-5. Review or package the evidence on EchoCert Elite desktop where appropriate.
+EchoCert accepts one case at a time during the founding stage so the evidence boundary, quality checks and handover remain controlled.
 
 ---
 
-## What the participant evaluates
+## Intake gates
 
-The pilot should test:
+Work begins only when all of the following are recorded:
 
-- Is the workflow understandable without technical training?
-- Does it reduce evidence-handling friction?
-- Does the user trust the verification result and understand its limits?
-- Is the report/receipt useful in the user's real work?
-- Does mobile capture fit naturally into field work?
-- Does desktop verification/reporting add value afterwards?
-- What would stop the user adopting it?
-- Would the user pay for continued use?
+1. The business customer and authorised contact are identified.
+2. The exact evidence question and boundaries are approved in writing.
+3. The supplied material is lawful, safe, non-sensitive and within scope.
+4. Payment has cleared.
+5. Intake is complete and the evidence set has been accepted.
+
+No agent or automated workflow may bypass these gates, expand the scope, change the price or promise an outcome.
+
+---
+
+## Delivery workflow
+
+1. Inventory the accepted files without silently changing them.
+2. Record duplicates, missing items, corrupt files and naming anomalies.
+3. Generate SHA-256 digests and deterministic receipts.
+4. Re-verify retained artifacts and record any mismatch or failed check.
+5. Separate observed facts, supported inference and unresolved or unproven claims.
+6. Produce the human-readable report and portable Evidence Pack.
+7. Run final completeness and verification checks before handover.
+
+Failed checks, limitations and unresolved questions remain visible. They are not suppressed to make the result look stronger.
+
+---
+
+## Deliverables
+
+- Source inventory and duplicate register
+- SHA-256 manifest and integrity receipts
+- Verification results and exceptions
+- Findings report with explicit evidence boundaries
+- Portable Evidence Pack
+- Plain-English verification instructions
+- Guided handover appropriate to the agreed scope
+
+---
+
+## What the pilot does not claim
+
+EchoCert does not by itself prove:
+
+- Truth, correctness, intent or authorship
+- Complete capture of every relevant event
+- Provider-backend activity that was not independently retained
+- An independently trusted timestamp when only local device time exists
+- Legal admissibility, forensic accreditation or regulatory compliance
+- That duplicate copies independently corroborate a claim
+
+A controlled demonstration is not presented as a paid-customer result. A sale is not recorded until payment is independently confirmed, and delivery is not recorded until the final pack passes its checks.
 
 ---
 
 ## Success criteria
 
-A pilot is commercially encouraging when users demonstrate several of the following:
+The founding pilot is commercially successful only when independently checkable outcomes exist, including:
 
-- They use EchoCert on real workflows without repeated assistance.
-- They independently re-verify captured files.
-- They prefer the EchoCert workflow to their previous evidence process.
-- They request continued access after the pilot.
-- They identify a colleague/team that could also use it.
-- They are willing to pay for an appropriate licence or service.
-- They provide a credible testimonial or case study where permitted.
+- A real business customer paid the agreed price.
+- The accepted evidence set stayed within scope and privacy boundaries.
+- The delivered pack passed deterministic verification.
+- The customer found the output useful enough to provide specific feedback, a referral or a permitted testimonial.
+- Delivery time and rework were measured honestly.
 
-Downloads, compliments and social-media likes are **not** sufficient validation by themselves.
+Agent confidence, simulations, compliments, downloads and social-media attention do not count as customer proof.
 
 ---
 
-## What EchoCert does not claim
+## Refund boundary
 
-The pilot must not represent EchoCert as:
-
-- A truth detector
-- A guarantee that media depicts a genuine event
-- A complete chain-of-custody system by itself
-- Forensically accredited unless that status is independently obtained
-- Court-approved or regulator-approved
-- A substitute for professional legal/compliance judgement
-- An independent trusted timestamp when only local device/system time was used
+- If EchoCert declines the case before substantive work begins, the fee is refunded in full.
+- After substantive work begins, any refund is limited to the unperformed portion agreed in writing.
 
 ---
 
-## Commercial outcome
+## Focus rule
 
-At the end of a successful pilot, the desired next step is one of:
-
-- Paid individual/professional licence
-- Paid team/business pilot extension
-- Paid evidence/verification service
-- A larger controlled deployment
-- Documented referral to another suitable buyer
-
-If the pilot does not solve a meaningful problem, the correct outcome is to learn why and change the product rather than pressure the participant to buy.
-
----
-
-## Pilot rule
-
-**No major new feature should be built solely because one prospect asks for it unless the request supports the core evidence-integrity proposition or repeats across multiple credible buyers.**
-
-This keeps EchoCert focused on a product people pay for rather than becoming a pile of custom features.
+No major feature is added solely because one prospect requests it unless it supports the core evidence-integrity proposition or repeats across credible buyers. The immediate goal is Customer #001 Paid and a verified delivery, not feature count.
