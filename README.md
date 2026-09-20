@@ -33,6 +33,18 @@ This is a managed evidence-integrity service, not a promise that the private des
 
 ---
 
+## See the deliverable before enquiring
+
+[Download the synthetic sample Evidence Pack](https://echocert-evidence.mccombsp86.chatgpt.site/echocert-offline-demo.zip) or [view the sample explanation](https://echocert-evidence.mccombsp86.chatgpt.site/#sample).
+
+The ZIP includes an approved-action example, a denied-action example and an intentionally altered pack. Read its README and results together. These are synthetic demonstrations of the checks, not customer records, independent certification or proof of live-agent safety.
+
+**A practical first use:** an AI agency hands over a workflow and wants its client to check which supplied records were examined and whether those bytes still match the delivered inventory. EchoCert records the evidence and its limits; it does not determine whether the AI's answer was true.
+
+[Describe your evidence question](https://echocert-evidence.mccombsp86.chatgpt.site/#enquire). Start with a short description, approximate file count and size, and the question you need checked. Do not send evidence, personal data, credentials or payment before written scope approval and an agreed transfer route.
+
+---
+
 ## Product direction — September 2026
 
 EchoCert is being developed as one local-first evidence ecosystem with two interfaces:
@@ -52,7 +64,7 @@ The private controlled-pilot build, **EchoCert Elite v0.9.4**, has demonstrated:
 - Explicit clock-source / timestamp-status disclosure
 - Windows installation and clean-machine testing
 
-Desktop is intended to remain the professional command centre for certification, reporting, evidence packs, case workflows, audit work and later team/business features.
+Desktop is intended to remain the professional workspace for integrity verification, reporting, evidence packs, case workflows, audit work and later team/business features.
 
 ### EchoCert Mobile — Android companion
 
