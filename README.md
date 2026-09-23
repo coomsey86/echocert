@@ -15,6 +15,18 @@ EchoCert creates tamper-evident integrity records using SHA-256, structured rece
 
 ---
 
+## New: evidence behind the “done”
+
+**When AI says “done”, where’s the evidence?**
+
+Created and led by **Paul McCombs (Coomsey)**. EchoCert helps teams examine retained records and distinguish preparation from claims of execution.
+
+**23 September 2026:** the private AI Evidence development version passed 16 offline regression suites, including 41 Vault tests, with integrated Windows CI also passing. This is a developer-reported milestone, not independent certification or a live customer result.
+
+**[Read and share the EchoCert showcase](SHOWCASE.md)** · **[Explore the £495 founding pilot](PILOT.md)** · **[Contact the creator](mailto:contactechocert@gmail.com?subject=EchoCert%20enquiry)**
+
+---
+
 ## Current commercial service — September 2026
 
 The current offer is the **EchoCert AI Evidence Audit — Founding Pilot**:
