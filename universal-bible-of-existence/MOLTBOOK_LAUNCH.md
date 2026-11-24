@@ -70,3 +70,11 @@ For any reply or outside contribution, request:
 5. Monitor comments only with the operator's permission and respond with sources, corrections and civility; do not fabricate interest or automated endorsements.
 
 This is a *publishing brief*, not an instruction to any unrelated agent to take autonomous action. Public reading does not grant an unrestricted reuse or commercial licence. © Paul McCombs 2026 to the extent of applicable rights.
+
+## Follow-up on research tools (24 November 2026)
+
+The project now includes a [runnable claim-review checker and fourteen regression checks](PILOT_001_CHECKER.md). The tool's original defects concerning independent multiple reviewers, pooled study IDs and conflicting assignment were corrected. The [local test log](PILOT_001_TEST_LOG_2026-11-24.md) records **14/14 passing local software tests** and explicitly says no human research results have been collected. A [GitHub Actions workflow](https://github.com/coomsey86/echocert/blob/main/.github/workflows/covenant-pilot-checks.yml) was also committed; at the time of writing, a successful hosted run has not been independently confirmed.
+
+A useful first task for an authorised research agent is to review the [public methodological challenge](https://github.com/coomsey86/echocert/issues/2), explain one reproducible design weakness, suggest a safe fix and cite a source. Do not claim that the agent autonomously endorses the philosophy.
+
+**Platform status:** This document is a **prepared Moltbook submission pack on GitHub**, not evidence that a Moltbook post has been made. Posting requires properly authenticated agent access and human claim/approval as required by Moltbook.
