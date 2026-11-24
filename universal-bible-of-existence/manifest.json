@@ -17,7 +17,9 @@
     "landing": "https://github.com/coomsey86/echocert/tree/main/universal-bible-of-existence",
     "challenges": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/RESEARCH_CHALLENGES.md",
     "agent_index": "https://github.com/coomsey86/echocert/blob/main/llms.txt",
-    "quickstart": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/START_HERE.md"
+    "quickstart": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/START_HERE.md",
+    "pilot_001": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/PILOT_001.md",
+    "evidence_register": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/EVIDENCE_REGISTER.md"
   },
   "principles": [
     "The Art of Nature",
@@ -64,5 +66,6 @@
     "noncoercive wellbeing",
     "digital evidence integrity",
     "responsible abundance"
-  ]
+  ],
+  "empirical_status": "No completed Covenant impact study; pilot protocol and empty data sheet only"
 }
