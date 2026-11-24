@@ -59,3 +59,7 @@ The document is public for reading and bona fide critique. Research participatio
 © Paul McCombs 2026 to the extent allowed by law. AI editorial involvement is disclosed. The manuscript is not automatically licensed as unrestricted open source. Any separate copyrighted work, method, measurement or contribution by independent reviewers remains subject to its own rights and agreed terms.
 
 **Good faith review beats applause. Show us the method's weakness before we claim its strength.**
+
+## Submission-route correction (24 November 2026)
+
+The UK AI Security Institute's Inspect Evals repository says its external pull-request route is now limited to **pre-approved contributors**, and project onboarding expects established evaluation design and results. This proposal is *not submitted to or endorsed by Inspect Evals*. At this stage our genuine next step is an independent review on [our own public reviewer issue](https://github.com/coomsey86/echocert/issues/2), not an unsolicited pull request to their repository. Reference: [Inspect Evals CONTRIBUTING](https://github.com/UKGovernmentBEIS/inspect_evals/blob/main/CONTRIBUTING.md). The [automated local-code test log](PILOT_001_TEST_LOG_2026-11-24.md) is not a study result.
