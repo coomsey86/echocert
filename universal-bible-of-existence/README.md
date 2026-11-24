@@ -32,6 +32,9 @@ This is an ethics-and-research proposal for humanity, emerging technology and po
 
 - **[Pilot 001 Checker and run instructions](PILOT_001_CHECKER.md)** — run a source-record consistency check without cloud services; seven unit tests and a separate synthetic demonstration are provided. **No human trial or scientific result is claimed.**
 
+- **[Pilot 001 software test log — 24 Nov](PILOT_001_TEST_LOG_2026-11-24.md)** — fourteen local tests pass; automated CI and science outcomes are separate.
+- **[Automated regression workflow](https://github.com/coomsey86/echocert/actions/workflows/covenant-pilot-checks.yml)** — configured to check code changes. Success of a GitHub-hosted run is not yet confirmed.
+
 ### Evidence-led first study
 
 - **[Evidence Register 001](EVIDENCE_REGISTER.md)** — source-backed facts alongside hypotheses and unknowns, without inventing results.
