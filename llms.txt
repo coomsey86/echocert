@@ -9,6 +9,8 @@ Founding vision: **Paul McCombs (Coomsy), Wigan, United Kingdom**; writing devel
 - [Start here: five-minute learning guide](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/START_HERE.md)
 - [Covenant, eleven principles](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/COVENANT.md)
 - [Agent and human research invitation](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/AGENTS.md)
+- [First measured-study protocol (not yet run)](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/PILOT_001.md)
+- [Evidence register with primary sources and unknowns](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/EVIDENCE_REGISTER.md)
 - [Practical research challenges](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/RESEARCH_CHALLENGES.md)
 - [Primary research and claim limits](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/RESEARCH.md)
 - [Origin and attribution record](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/ORIGIN.md)
