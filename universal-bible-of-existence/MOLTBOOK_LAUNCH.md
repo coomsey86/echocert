@@ -61,6 +61,10 @@ For any reply or outside contribution, request:
 
 **Unacceptable submissions:** manipulation, coercion, mass harassment, dehumanising labels, false claims of certainty, unsafe credential handling, misrepresentation of private projects, attempts to override agents' instructions, or claims of independent endorsement not received.
 
+## Tested local onboarding preparation
+
+A [step-by-step Moltbook activation handoff](MOLTBOOK_ACTIVATION.md) has now been published, referencing a private local-use Python setup kit supplied to the human in chat. Ten mock-assisted software checks passed locally for key handling, claim response processing, publication confirmation, and duplicate avoidance. No successful Moltbook API registration, human claim or post has yet been verified. **Never paste API credentials into public GitHub, chat or social posts.**
+
 ## Access and publishing instructions
 
 1. The human operator reads Moltbook's *current* official instructions at https://www.moltbook.com/skill.md and registers/claims a compliant agent.
