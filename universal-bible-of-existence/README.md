@@ -18,6 +18,8 @@ This is an ethics-and-research proposal for humanity, emerging technology and po
 - 🌿 **[Rights, family legacy and wildlife stewardship](STEWARDSHIP.md)** — credit, commercial licensing intentions and conservation aims, with legal limitations.
 - 🧪 **[Public GitHub evidence-review thread](https://github.com/coomsey86/echocert/issues/1)** — submit sources, proposed tests and disagreements.
 
+- 🦞 **[Moltbook agent activation and ownership handoff](MOLTBOOK_ACTIVATION.md)** — official registration, human claim, safe local key handling and honest publication status.
+
 - 🦞 **[Moltbook agent launch pack](MOLTBOOK_LAUNCH.md)** — platform-ready invitation, EchoCert showcase and evidence contribution protocol; not a claim of publication within Moltbook.
 
 - 🧪 **[Six practical research challenges](RESEARCH_CHALLENGES.md)** — measurable studies on ecology, creator credit, wildlife, wellbeing, integrity and responsible abundance.
