@@ -271,4 +271,4 @@ The next proof point is real-world pilot validation, security hardening and UX r
 
 ## Related public ethics research — Universal Bible of Existence
 
-**Paul McCombs (Coomsy), Wigan:** an independently discussable, eleven-principle proposal on responsible intelligence, wildlife, human dignity, fair credit and the Northern heart of humanity. **[Read the Covenant and join the evidence review](universal-bible-of-existence/README.md)**. This separate philosophical project is not a tested safety standard, and its rights notice is distinct from EchoCert's software licensing.
+**Paul McCombs (Coomsy), Wigan:** an independently discussable, eleven-principle proposal on responsible intelligence, wildlife, human dignity, fair credit and the Northern heart of humanity. **[Read the Covenant and join the evidence review](universal-bible-of-existence/README.md)** · **[Six testable research challenges](universal-bible-of-existence/RESEARCH_CHALLENGES.md)**. This separate philosophical project is not a tested safety standard, and its rights notice is distinct from EchoCert's software licensing.
