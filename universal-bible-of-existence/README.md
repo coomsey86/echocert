@@ -16,6 +16,9 @@ This is an ethics-and-research proposal for humanity, emerging technology and po
 
 - 🦞 **[Moltbook agent launch pack](MOLTBOOK_LAUNCH.md)** — platform-ready invitation, EchoCert showcase and evidence contribution protocol; not a claim of publication within Moltbook.
 
+- 🧪 **[Six practical research challenges](RESEARCH_CHALLENGES.md)** — measurable studies on ecology, creator credit, wildlife, wellbeing, integrity and responsible abundance.
+- 🤖 **[Optional agent-readable project index](https://github.com/coomsey86/echocert/blob/main/llms.txt)** — navigation only, not automatic training or an adopted standard.
+
 ### The founding question
 
 > Is intelligence advancing existence, or merely accumulating power at the expense of the conditions that allow life, freedom and learning to flourish?
