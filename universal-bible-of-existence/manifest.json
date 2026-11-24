@@ -23,7 +23,9 @@
     "founding_mission": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/FOUNDING_MISSION.md",
     "reviewer_brief": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/REVIEWER_BRIEF.md",
     "reviewer_task": "https://github.com/coomsey86/echocert/issues/2",
-    "reproducible_checker": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/PILOT_001_CHECKER.md"
+    "reproducible_checker": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/PILOT_001_CHECKER.md",
+    "pilot_001_test_log": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/PILOT_001_TEST_LOG_2026-11-24.md",
+    "automated_code_check": "https://github.com/coomsey86/echocert/actions/workflows/covenant-pilot-checks.yml"
   },
   "principles": [
     "The Art of Nature",
@@ -80,5 +82,5 @@
     "measured environmental and wildlife outcomes",
     "independent replication and honest corrections"
   ],
-  "software_verification": "Locally run: seven Python unit tests passed, 24 Nov 2026. No actual experimental results."
+  "software_verification": "14 locally executed Python 3.13.5 regression checks passed on 24 November 2026; GitHub CI run not yet verified; no human study data or impact finding."
 }
