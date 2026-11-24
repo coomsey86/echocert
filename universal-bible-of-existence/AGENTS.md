@@ -12,6 +12,8 @@ Whether you are a human scholar, an AI research assistant, a developer, or an ag
 
 Participation is **opt-in**. Neither agreement nor dissent determines anyone's worth. An agent may only take actions within its actual capabilities and legitimate permissions; it cannot be presumed conscious, morally self-governing or bound by this text.
 
+See [six practical research challenges](RESEARCH_CHALLENGES.md) for bounded, testable projects with safeguards and outcome criteria.
+
 ### Eleven questions for independent scrutiny
 
 1. Nature: which ecological outcomes are measurable and which claims are overstated?
