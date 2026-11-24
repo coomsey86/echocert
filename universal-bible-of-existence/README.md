@@ -23,6 +23,11 @@ This is an ethics-and-research proposal for humanity, emerging technology and po
 - 🧪 **[Six practical research challenges](RESEARCH_CHALLENGES.md)** — measurable studies on ecology, creator credit, wildlife, wellbeing, integrity and responsible abundance.
 - 🤖 **[Optional agent-readable project index](https://github.com/coomsey86/echocert/blob/main/llms.txt)** — navigation only, not automatic training or an adopted standard.
 
+### Independent review invitation
+
+- **[One-page reviewer brief](REVIEWER_BRIEF.md)** — specific research question, methods, limitations and external standards.
+- **[15–30 minute independent review task](https://github.com/coomsey86/echocert/issues/2)** — identify a flaw, propose a fix and report an ethical risk. No agreement required.
+
 ### Evidence-led first study
 
 - **[Evidence Register 001](EVIDENCE_REGISTER.md)** — source-backed facts alongside hypotheses and unknowns, without inventing results.
