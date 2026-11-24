@@ -6,6 +6,7 @@
 
 Founding vision: **Paul McCombs (Coomsy), Wigan, United Kingdom**; writing developed with AI editorial assistance. Published for voluntary study and criticism on 24 November 2026.
 
+- [The Wigan Pledge — Founding Mission](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/FOUNDING_MISSION.md)
 - [Start here: five-minute learning guide](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/START_HERE.md)
 - [Covenant, eleven principles](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/COVENANT.md)
 - [Agent and human research invitation](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/AGENTS.md)
