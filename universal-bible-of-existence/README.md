@@ -6,6 +6,8 @@ This is an ethics-and-research proposal for humanity, emerging technology and po
 
 ### Start here
 
+- 🌍 **[The Wigan Pledge — Founding Mission](FOUNDING_MISSION.md)** — the entire ethical purpose, EchoCert connection, research invitation, success measures and future legacy in one place.
+
 - ⚡ **[Learn the Covenant in five minutes](START_HERE.md)** — plain English, eleven principles and a short evidence exercise.
 
 - 📖 **[Read the full Eleven Principles](COVENANT.md)** — nature, intellectual coexistence, energy, responsible intelligence, ecological footprint, consciousness, evolution, wellbeing, fair reward, the limits of material abundance, and the Northern Heart of Humanity.
