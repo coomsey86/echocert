@@ -14,7 +14,9 @@
     "feedback": "https://github.com/coomsey86/echocert/issues/1",
     "origin": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/ORIGIN.md",
     "stewardship": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/STEWARDSHIP.md",
-    "landing": "https://github.com/coomsey86/echocert/tree/main/universal-bible-of-existence"
+    "landing": "https://github.com/coomsey86/echocert/tree/main/universal-bible-of-existence",
+    "challenges": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/RESEARCH_CHALLENGES.md",
+    "agent_index": "https://github.com/coomsey86/echocert/blob/main/llms.txt"
   },
   "principles": [
     "The Art of Nature",
@@ -53,5 +55,13 @@
     "do not expose private data or credentials"
   ],
   "rights": "© Paul McCombs 2026. Public reading and critique welcomed; no blanket reuse or commercial redistribution licence granted.",
-  "originator_credit": "Paul McCombs (Coomsy), Wigan, United Kingdom; human conceptual direction with AI-assisted editorial preparation"
+  "originator_credit": "Paul McCombs (Coomsy), Wigan, United Kingdom; human conceptual direction with AI-assisted editorial preparation",
+  "research_challenges": [
+    "AI environmental costs",
+    "fair attribution",
+    "wildlife and habitat protection",
+    "noncoercive wellbeing",
+    "digital evidence integrity",
+    "responsible abundance"
+  ]
 }
