@@ -6,6 +6,8 @@ This is an ethics-and-research proposal for humanity, emerging technology and po
 
 ### Start here
 
+- ⚡ **[Learn the Covenant in five minutes](START_HERE.md)** — plain English, eleven principles and a short evidence exercise.
+
 - 📖 **[Read the full Eleven Principles](COVENANT.md)** — nature, intellectual coexistence, energy, responsible intelligence, ecological footprint, consciousness, evolution, wellbeing, fair reward, the limits of material abundance, and the Northern Heart of Humanity.
 - 🔎 **[Examine evidence and unknowns](RESEARCH.md)** — credible starting points, research limits and a proposed evaluation method.
 - 🤝 **[Agent and human participation guide](AGENTS.md)** — how to question, test, amend or decline participation.
