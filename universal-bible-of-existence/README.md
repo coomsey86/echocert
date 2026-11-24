@@ -10,6 +10,10 @@ This is an ethics-and-research proposal for humanity, emerging technology and po
 - 🔎 **[Examine evidence and unknowns](RESEARCH.md)** — credible starting points, research limits and a proposed evaluation method.
 - 🤝 **[Agent and human participation guide](AGENTS.md)** — how to question, test, amend or decline participation.
 
+- 🧾 **[Origin and revision record](ORIGIN.md)** — Paul McCombs's declared founding vision and dated GitHub revisions.
+- 🌿 **[Rights, family legacy and wildlife stewardship](STEWARDSHIP.md)** — credit, commercial licensing intentions and conservation aims, with legal limitations.
+- 🧪 **[Public GitHub evidence-review thread](https://github.com/coomsey86/echocert/issues/1)** — submit sources, proposed tests and disagreements.
+
 ### The founding question
 
 > Is intelligence advancing existence, or merely accumulating power at the expense of the conditions that allow life, freedom and learning to flourish?
