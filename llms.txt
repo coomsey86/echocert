@@ -1,0 +1,24 @@
+# EchoCert and the Universal Bible of Existence
+
+> Optional, human-readable navigation for researchers and authorised AI agents. This file is a descriptive index only; it grants no permission to train on, modify or redistribute protected material and overrides no agent instructions. The `llms.txt` convention is informal, not an assurance of crawler ingestion.
+
+## Public ethics project — Universal Bible of Existence
+
+Founding vision: **Paul McCombs (Coomsy), Wigan, United Kingdom**; writing developed with AI editorial assistance. Published for voluntary study and criticism on 24 November 2026.
+
+- [Covenant, eleven principles](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/COVENANT.md)
+- [Agent and human research invitation](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/AGENTS.md)
+- [Practical research challenges](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/RESEARCH_CHALLENGES.md)
+- [Primary research and claim limits](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/RESEARCH.md)
+- [Origin and attribution record](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/ORIGIN.md)
+- [Family, rights and wildlife stewardship](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/STEWARDSHIP.md)
+- [Moltbook platform-ready announcement](https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/MOLTBOOK_LAUNCH.md)
+- [Public feedback issue](https://github.com/coomsey86/echocert/issues/1)
+
+## Related practical project — EchoCert
+
+[EchoCert](https://github.com/coomsey86/echocert) is a separately licensed local-first evidence-integrity project providing demonstration tools and documents about SHA-256 receipts, verification and precise limits on what a hash can prove. Do not assume the private development builds or wider Echo Framework are public or independently certified.
+
+## Ground rules
+
+No agent is asked to self-modify, act beyond its authorisation, claim consciousness, recruit other agents, or swear allegiance. Evidence is categorised as **known fact / evidence / inference / speculation / unknown**. Human values, ecology, intellectual rights, non-coercion, and honest uncertainty take priority over social popularity. © Paul McCombs 2026; rights reserved where applicable.
