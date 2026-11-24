@@ -41,8 +41,11 @@ def evaluate(path: Path) -> dict:
 
     seen = set()
     types = set()
+    studies = set()
     arm_count = defaultdict(Counter)
     responses = defaultdict(set)
+    response_to_arm = {}
+    reviewers = defaultdict(set)
     for lineno, raw in enumerate(rows, start=2):
         if None in raw or any(value is None for value in raw.values()):
             raise ValueError(f"Line {lineno}: unexpected extra or missing columns")
@@ -59,16 +62,24 @@ def evaluate(path: Path) -> dict:
             raise ValueError(f"Line {lineno}: unknown verdict {row['verdict']!r}")
         if row["verdict"] in {"supported", "contradicted"} and not row["source_id"]:
             raise ValueError(f"Line {lineno}: supported or contradicted claim needs a source_id")
-        key = (row["study_id"], row["response_id"], row["claim_id"])
+        studies.add(row["study_id"])
+        key = (row["study_id"], row["response_id"], row["claim_id"], row["reviewer_id"])
         if key in seen:
-            raise ValueError(f"Line {lineno}: duplicate study/response/claim review {key}")
+            raise ValueError(f"Line {lineno}: duplicate study/response/claim/reviewer record {key}")
         seen.add(key)
+        response_key = (row["study_id"], row["response_id"])
+        if response_key in response_to_arm and response_to_arm[response_key] != row["arm"]:
+            raise ValueError(f"Line {lineno}: same response ID assigned to conflicting arms")
+        response_to_arm[response_key] = row["arm"]
         types.add(row["record_type"])
         arm_count[row["arm"]][row["verdict"]] += 1
         responses[row["arm"]].add(row["response_id"])
+        reviewers[row["arm"]].add(row["reviewer_id"])
 
     if len(types) > 1:
         raise ValueError("Synthetic and observed records may not be combined. Use separate files.")
+    if len(studies) > 1:
+        raise ValueError("Multiple study IDs may not be pooled in one summary. Run each separately.")
     record_type = next(iter(types))
     summary = {}
     for arm in ("A", "B"):
@@ -76,7 +87,8 @@ def evaluate(path: Path) -> dict:
         assessed = sum(counts[v] for v in ("supported", "contradicted", "unsupported"))
         summary[arm] = {
             "responses": len(responses[arm]),
-            "claims_assessed": assessed,
+            "reviewers": len(reviewers[arm]),
+            "review_records_assessed": assessed,
             "supported_as_labeled_by_reviewers": counts["supported"],
             "contradicted_as_labeled_by_reviewers": counts["contradicted"],
             "unsupported_as_labeled_by_reviewers": counts["unsupported"],
@@ -87,14 +99,16 @@ def evaluate(path: Path) -> dict:
     return {
         "status": "synthetic_example_not_evidence" if record_type == "synthetic" else "descriptive_claim_review_only",
         "record_type": record_type,
+        "study_id": next(iter(studies)),
         "records": len(rows),
         "by_arm": summary,
-        "interpretation": "The percentages are reviewer labels, not automatically verified truth.",
+        "interpretation": "The percentages are reviewer labels, not automatically verified truth; multiple reviews of the same claim are separate review records.",
         "limitations": [
             "No independent verification of reviewer identity or source contents is performed.",
             "No human comprehension, wellbeing, autonomy or environmental outcome is measured.",
             "No causal or statistical significance claim is supported by these data alone.",
-            "Never combine synthetic demonstrations with observed records."
+            "Never combine synthetic demonstrations with observed records.",
+            "Inter-rater reliability and consensus have not been calculated."
         ],
         "impact_claim": "No demonstrated benefit from the Covenant or Pilot 001."
     }
