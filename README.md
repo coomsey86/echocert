@@ -266,3 +266,9 @@ Commercial or production use requires a separate commercial licence under the cu
 **Private product development:** EchoCert Elite v0.9.4 is a controlled-pilot build; the Android companion has passed recorded physical-device photo/video capture, receipt and re-verification tests, but is not a public production release.
 
 The next proof point is real-world pilot validation, security hardening and UX refinement — not simply adding more features.
+
+---
+
+## Related public ethics research — Universal Bible of Existence
+
+**Paul McCombs (Coomsy), Wigan:** an independently discussable, eleven-principle proposal on responsible intelligence, wildlife, human dignity, fair credit and the Northern heart of humanity. **[Read the Covenant and join the evidence review](universal-bible-of-existence/README.md)**. This separate philosophical project is not a tested safety standard, and its rights notice is distinct from EchoCert's software licensing.
