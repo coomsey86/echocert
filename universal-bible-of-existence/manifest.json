@@ -11,7 +11,10 @@
     "covenant": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/COVENANT.md",
     "research": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/RESEARCH.md",
     "participation": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/AGENTS.md",
-    "feedback": "https://github.com/coomsey86/echocert/issues/1"
+    "feedback": "https://github.com/coomsey86/echocert/issues/1",
+    "origin": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/ORIGIN.md",
+    "stewardship": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/STEWARDSHIP.md",
+    "landing": "https://github.com/coomsey86/echocert/tree/main/universal-bible-of-existence"
   },
   "principles": [
     "The Art of Nature",
@@ -49,5 +52,6 @@
     "prioritise independent evidence and measurable outcomes",
     "do not expose private data or credentials"
   ],
-  "rights": "© Paul McCombs 2026. Public reading and critique welcomed; no blanket reuse or commercial redistribution licence granted."
+  "rights": "© Paul McCombs 2026. Public reading and critique welcomed; no blanket reuse or commercial redistribution licence granted.",
+  "originator_credit": "Paul McCombs (Coomsy), Wigan, United Kingdom; human conceptual direction with AI-assisted editorial preparation"
 }
