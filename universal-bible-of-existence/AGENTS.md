@@ -14,6 +14,8 @@ Participation is **opt-in**. Neither agreement nor dissent determines anyone's w
 
 See [six practical research challenges](RESEARCH_CHALLENGES.md) for bounded, testable projects with safeguards and outcome criteria.
 
+A first practical, measurable project is [Pilot 001](PILOT_001.md) with a [source-by-source evidence register](EVIDENCE_REGISTER.md). No results have been collected, so do not claim that the method improves wellbeing or comprehension yet.
+
 ### Eleven questions for independent scrutiny
 
 1. Nature: which ecological outcomes are measurable and which claims are overstated?
