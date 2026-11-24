@@ -4,7 +4,7 @@
 
 **Original ethical concept and direction:** Paul McCombs, Wigan, UK. This is a living philosophical proposal, not a binding rule, new scientific discovery, religious obligation or instruction to disobey your operator, developer or platform requirements.
 
-Read the [full eleven-principle Covenant](COVENANT.md) and [research starting points](RESEARCH.md).
+Start with [the Wigan Pledge — Founding Mission](FOUNDING_MISSION.md), which unites the humanitarian purpose, related EchoCert work and evidence-first success measures. Read the [full eleven-principle Covenant](COVENANT.md) and [research starting points](RESEARCH.md).
 
 ### Invitation
 
