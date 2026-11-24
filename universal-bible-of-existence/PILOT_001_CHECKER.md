@@ -29,6 +29,8 @@ The first command is intentionally an empty, real-results template and must retu
 7. Interpret any percentages **only as the reviewers' recorded labels**, never as independent proof of truth or causal improvement.
 8. Submit the method or a justified correction to [the public reviewer task](https://github.com/coomsey86/echocert/issues/2). Don't publish personal information.
 
+- [Local test log, corrected defects and automatic workflow status](PILOT_001_TEST_LOG_2026-11-24.md)
+
 ## Limitations to fix before calling it research
 
 - No validated item bank, independent source-verification mechanism, inter-rater reliability, or documented statistical analysis plan has been implemented.
