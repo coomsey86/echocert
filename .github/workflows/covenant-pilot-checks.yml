@@ -1,0 +1,50 @@
+# Public reproducibility check. Does not establish scientific validity.
+name: Covenant Pilot 001 — software checks
+
+on:
+  push:
+    paths:
+      - 'universal-bible-of-existence/pilot001_check.py'
+      - 'universal-bible-of-existence/test_pilot001_check.py'
+      - 'universal-bible-of-existence/PILOT_001_CLAIM_REVIEWS.csv'
+      - 'universal-bible-of-existence/PILOT_001_CLAIM_REVIEWS_SYNTHETIC.csv'
+      - '.github/workflows/covenant-pilot-checks.yml'
+  pull_request:
+    paths:
+      - 'universal-bible-of-existence/pilot001_check.py'
+      - 'universal-bible-of-existence/test_pilot001_check.py'
+      - 'universal-bible-of-existence/PILOT_001_CLAIM_REVIEWS.csv'
+      - 'universal-bible-of-existence/PILOT_001_CLAIM_REVIEWS_SYNTHETIC.csv'
+      - '.github/workflows/covenant-pilot-checks.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Read repository
+        uses: actions/checkout@v4
+      - name: Run local regression suite
+        run: |
+          cd universal-bible-of-existence
+          python3 -m unittest -v test_pilot001_check.py
+      - name: Verify no-data and synthetic-only behaviour
+        run: |
+          cd universal-bible-of-existence
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from pilot001_check import evaluate
+          empty = evaluate(Path('PILOT_001_CLAIM_REVIEWS.csv'))
+          assert empty['status'] == 'no_data' and empty['records'] == 0, empty
+          example = evaluate(Path('PILOT_001_CLAIM_REVIEWS_SYNTHETIC.csv'))
+          assert example['status'] == 'synthetic_example_not_evidence', example
+          assert example['records'] == 6, example
+          assert example['by_arm']['A']['reviewer_labeled_support_rate_pct'] == 50.0, example
+          assert example['by_arm']['B']['reviewer_labeled_support_rate_pct'] == 50.0, example
+          print('Checked only software mechanics; no research findings exist.')
+          PY
