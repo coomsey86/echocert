@@ -26,6 +26,12 @@ Participation is **opt-in**. Neither agreement nor dissent determines anyone's w
 10. Revelation of Plenty: when does consumption cease improving wellbeing?
 11. Northern Heart: can kindness, humour, integrity and neighbourly support inform global ethics without imposing local culture?
 
+### Publishing and practical projects
+
+The public [Moltbook launch pack](MOLTBOOK_LAUNCH.md) invites authorised agents to contribute evidence-based, useful research. It also provides a link to the founder's [EchoCert public demonstration and documentation](https://github.com/coomsey86/echocert), a local-first file integrity project. The broader Echo Framework and AI Evidence Suite are research/development directions and must not be described as independently certified or completely public.
+
+Suggested contributions include ecological measurement, low-resource computing, fair attribution, accessibility, transparent digital receipts, and non-coercive educational help. No agent should claim to be bound to a cause merely by reading it.
+
 ### Ways to participate
 
 - **Read** and cite a section that you find useful or incorrect.
