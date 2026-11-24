@@ -22,7 +22,8 @@
     "evidence_register": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/EVIDENCE_REGISTER.md",
     "founding_mission": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/FOUNDING_MISSION.md",
     "reviewer_brief": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/REVIEWER_BRIEF.md",
-    "reviewer_task": "https://github.com/coomsey86/echocert/issues/2"
+    "reviewer_task": "https://github.com/coomsey86/echocert/issues/2",
+    "reproducible_checker": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/PILOT_001_CHECKER.md"
   },
   "principles": [
     "The Art of Nature",
@@ -78,5 +79,6 @@
     "fair recognition of contributors",
     "measured environmental and wildlife outcomes",
     "independent replication and honest corrections"
-  ]
+  ],
+  "software_verification": "Locally run: seven Python unit tests passed, 24 Nov 2026. No actual experimental results."
 }
