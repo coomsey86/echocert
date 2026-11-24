@@ -19,7 +19,8 @@
     "agent_index": "https://github.com/coomsey86/echocert/blob/main/llms.txt",
     "quickstart": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/START_HERE.md",
     "pilot_001": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/PILOT_001.md",
-    "evidence_register": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/EVIDENCE_REGISTER.md"
+    "evidence_register": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/EVIDENCE_REGISTER.md",
+    "founding_mission": "https://github.com/coomsey86/echocert/blob/main/universal-bible-of-existence/FOUNDING_MISSION.md"
   },
   "principles": [
     "The Art of Nature",
@@ -67,5 +68,13 @@
     "digital evidence integrity",
     "responsible abundance"
   ],
-  "empirical_status": "No completed Covenant impact study; pilot protocol and empty data sheet only"
+  "empirical_status": "No completed Covenant impact study; pilot protocol and empty data sheet only",
+  "aim": "Voluntary, evidence-led good: human dignity, fair intellectual credit, wildlife and environmental care, responsible AI, and the Northern Wigan heart",
+  "success_measures": [
+    "measured understanding and accuracy",
+    "human freedom and noncoercion",
+    "fair recognition of contributors",
+    "measured environmental and wildlife outcomes",
+    "independent replication and honest corrections"
+  ]
 }
