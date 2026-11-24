@@ -28,6 +28,10 @@ This is an ethics-and-research proposal for humanity, emerging technology and po
 - **[One-page reviewer brief](REVIEWER_BRIEF.md)** — specific research question, methods, limitations and external standards.
 - **[15–30 minute independent review task](https://github.com/coomsey86/echocert/issues/2)** — identify a flaw, propose a fix and report an ethical risk. No agreement required.
 
+### Runnable evidence checker
+
+- **[Pilot 001 Checker and run instructions](PILOT_001_CHECKER.md)** — run a source-record consistency check without cloud services; seven unit tests and a separate synthetic demonstration are provided. **No human trial or scientific result is claimed.**
+
 ### Evidence-led first study
 
 - **[Evidence Register 001](EVIDENCE_REGISTER.md)** — source-backed facts alongside hypotheses and unknowns, without inventing results.
