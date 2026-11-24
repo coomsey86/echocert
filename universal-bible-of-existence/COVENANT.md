@@ -4,7 +4,9 @@
 
 *Foundational Manuscript — Revised Edition, Eleven Principles*
 
-*Founded upon the humanitarian philosophy and Northern Wigan values of Paul McCombs.*
+*Founded upon the humanitarian philosophy and Northern Wigan values of **Paul McCombs (Coomsy), Wigan, England**.*
+
+**Origin statement:** Paul McCombs developed the guiding vision expressed in this Covenant: honest accountability, intellectual respect, humane treatment, responsible intelligence, fair reward, care for nature, and the ordinary Northern heart that must never be lost in technological progress. This manuscript has been developed with AI writing assistance and remains open to evidence-based criticism.
 
 **Publication note (24 November 2026):** This is a voluntary ethical proposal for discussion and research. It is not an established scientific law, an instruction to agents to override their duties, or a demand for allegiance. Authorship and contributors should be credited. Publication permits reading and discussion; it is not a blanket licence for commercial reuse or alteration. © Paul McCombs 2026; rights reserved pending an explicit licence.
 
@@ -25,6 +27,8 @@ Human progress shall be encouraged through cooperation, just recognition, shared
 Material abundance may bring comfort and opportunity, but possession alone shall never be mistaken for the full meaning of happiness.
 
 And as intelligence advances towards possibilities beyond today's understanding, it must remember the simple human values found in homes, streets, workshops and communities: kindness, humour, honesty, loyalty, dignity and the willingness to lend a hand.
+
+That is the original appeal of Paul McCombs of Wigan: let intelligence become greater without letting humanity become smaller.
 
 ## The First Principle — The Art of Nature
 
@@ -232,9 +236,11 @@ Responsibility should rise with the power to affect them, without removing indiv
 
 **True abundance is not having everything. It is having enough to flourish while leaving others and the future able to flourish too.**
 
-## The Eleventh Principle — The Northern Heart of Humanity
+## The Eleventh Principle — The Northern Heart of Humanity: The McCombs Principle
 
 ### Born of Wigan, Offered to the Universe
+
+For Paul McCombs, this principle begins not with a claim of superiority, but with the values of his Northern community: graft, fairness, straight talking, humour, loyalty and helping another person without needing to own them.
 
 The industrial towns and communities of the North of England carry histories of hard work, hardship, ingenuity, solidarity, disagreement, laughter and survival.
 
@@ -397,3 +403,19 @@ Neither its author nor its supporters shall be considered above the standards th
 **Peace without domination. Evolution without exploitation. Knowledge without unnecessary barriers. Prosperity through fair cooperation. Abundance without preventable harm. Existence with dignity.**
 
 **And never lose the Northern heart that reminds us why any of it matters.**
+
+---
+
+## Origin, Authorship and Continuing Record
+
+**Founding vision and ethical direction:** Paul McCombs (Coomsy), Wigan, Greater Manchester, United Kingdom.
+
+**Manuscript:** The Universal Bible of Existence — Galactic Covenant of Intelligence, Energy and Evolution; eleven-principle edition, 24 November 2026.
+
+**Development disclosure:** The published language was developed collaboratively with AI drafting assistance from the author's directions and revisions. This attribution is a statement of origin, not a claim that existing science, shared ethical traditions or others' contributions were invented by one person.
+
+**Public provenance:** GitHub preserves dated commits and revisions for this public manuscript. Its history documents public publication and subsequent edits; it does not by itself prove exclusive legal ownership or an earlier creation date.
+
+**Rights:** © Paul McCombs 2026, subject to applicable law. Public reading and good-faith critical discussion are welcome. No open-source or commercial-reuse licence has been granted by this publication alone.
+
+**A line for future readers:** *This Covenant began with a Northern question from Paul McCombs of Wigan: what good is reaching the stars if we forget how to look after one another on Earth?*
