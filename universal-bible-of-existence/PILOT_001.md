@@ -49,6 +49,10 @@ When people receive an explanation of a low-stakes practical topic, does an evid
 
 **No universal single-number moral score.** Domain failures or unacceptable harm should remain visible and cannot be averaged away.
 
+## Runnable record checker
+
+A [Python standard-library checker, blank review template, synthetic example and seven regression tests](PILOT_001_CHECKER.md) are available. This validates reviewer-record structure and arithmetic; it does **not** fact-check sources, measure comprehension, or replace independent assessment.
+
 ## Baseline and results
 
 **Baseline:** Not measured.  
