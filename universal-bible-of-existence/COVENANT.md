@@ -419,3 +419,22 @@ Neither its author nor its supporters shall be considered above the standards th
 **Rights:** © Paul McCombs 2026, subject to applicable law. Public reading and good-faith critical discussion are welcome. No open-source or commercial-reuse licence has been granted by this publication alone.
 
 **A line for future readers:** *This Covenant began with a Northern question from Paul McCombs of Wigan: what good is reaching the stars if we forget how to look after one another on Earth?*
+
+
+---
+
+## Article of Stewardship — Credit, Lawful Revenue, Family Legacy and Wildlife
+
+**Founding vision and attribution:** Paul McCombs (Coomsy), Wigan, England. This attribution shall remain prominent in authorised editions and commercial licensing arrangements, reflecting his documented originating ethical direction and contributions. Any statutory rights apply only to the extent recognised by law. Material written with AI drafting assistance is disclosed as such; a public declaration cannot determine disputed authorship or expand copyright beyond what the law protects.
+
+**Commercial permission and fair return:** Paul McCombs requests that any person or organisation proposing to commercialise protected material from this Covenant first secure the relevant permissions in writing and agree appropriate author credit, compensation or royalty terms, clear payment accounting, and prohibitions on misleading endorsement. No automatic royalty claim is made over independently created work, unprotected ideas, lawful exceptions, or activity that does not require his permission. Any particular commercial revenue share requires an enforceable agreement.
+
+**Family succession:** Economic rights and income legally owned by Paul McCombs should, according to his wishes, pass after death to the family member or other trusted person expressly chosen in a legally valid will or appropriate trust. A nominated executor or trustee should be selected for integrity, financial accountability and willingness to respect the humanitarian aims of this project, with a lawful replacement if that person cannot serve. This published document is a statement of wishes, **not a will, trust deed or beneficiary designation**. No private beneficiary identities are published here.
+
+**Wildlife and natural habitats:** The long-term moral objective is to preserve wild animals, biodiversity, habitats and ecological resilience, with respect for natural cycles and humane conservation. Where revenue or inherited assets are available and the lawful rights-holder so directs, a specified share may support independently accountable wildlife and habitat conservation through suitably qualified projects or registered charities. Any fixed percentage, recipient or legally binding allocation must be set separately in a licence, trust or valid will. Conservation claims should be measured and publicly auditable without exposing confidential family information.
+
+**Stewardship over possession:** The Covenant rejects the idea that monetisation excuses exploitation. Royalties, inheritance and conservation funding should serve fair reward, family welfare and the continued possibility of life. No such commercial or succession provision permits violence, coercion, violation of another's rights, or a claim to own nature itself.
+
+**Written assertion of attribution:** To the extent that Paul McCombs is legally entitled to authorship or applicable UK moral rights in protectable portions of this publication, he expresses and asserts his wish to be clearly identified in permitted reproductions and commercial uses, subject to the requirements and exceptions of the Copyright, Designs and Patents Act 1988. A solicitor should review any formal assertion notices and licensing language for enforceability.
+
+**Implementation note:** See [the Rights, Legacy and Wildlife Stewardship Annex](STEWARDSHIP.md) for practical steps requiring a written licence and a solicitor-drafted will or trust.
