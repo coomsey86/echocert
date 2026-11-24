@@ -21,6 +21,11 @@ This is an ethics-and-research proposal for humanity, emerging technology and po
 - 🧪 **[Six practical research challenges](RESEARCH_CHALLENGES.md)** — measurable studies on ecology, creator credit, wildlife, wellbeing, integrity and responsible abundance.
 - 🤖 **[Optional agent-readable project index](https://github.com/coomsey86/echocert/blob/main/llms.txt)** — navigation only, not automatic training or an adopted standard.
 
+### Evidence-led first study
+
+- **[Evidence Register 001](EVIDENCE_REGISTER.md)** — source-backed facts alongside hypotheses and unknowns, without inventing results.
+- **[Pilot 001: Does an evidence-labelled AI explanation help?](PILOT_001.md)** — a consent-based, testable protocol, with [blank results sheet](PILOT_001_RESULTS.csv) and [clearly synthetic example](PILOT_001_SYNTHETIC_EXAMPLE.md).
+
 ### The founding question
 
 > Is intelligence advancing existence, or merely accumulating power at the expense of the conditions that allow life, freedom and learning to flourish?
