@@ -44,8 +44,39 @@ class ValidatePilot001(unittest.TestCase):
 
     def test_computes_assessed_denominator_correctly(self):
         r=self.run_rows("S,observed,A,x,c1,supported,s1,r\nS,observed,A,x,c2,unsupported,,r\nS,observed,A,x,c3,unassessed,,r\n")
-        self.assertEqual(r["by_arm"]["A"]["claims_assessed"],2)
+        self.assertEqual(r["by_arm"]["A"]["review_records_assessed"],2)
         self.assertEqual(r["by_arm"]["A"]["reviewer_labeled_support_rate_pct"],50.0)
+
+    def test_second_independent_reviewer_is_allowed(self):
+        r=self.run_rows("S,observed,A,x,c1,supported,s1,reviewer1\nS,observed,A,x,c1,contradicted,s2,reviewer2\n")
+        self.assertEqual(r["by_arm"]["A"]["reviewers"],2)
+        self.assertEqual(r["by_arm"]["A"]["responses"],1)
+        self.assertEqual(r["by_arm"]["A"]["review_records_assessed"],2)
+
+    def test_duplicate_same_reviewer_not_allowed(self):
+        row="S,observed,A,x,c1,unsupported,,r1\n"
+        with self.assertRaisesRegex(ValueError,"duplicate"):
+            self.run_rows(row+row)
+
+    def test_one_response_two_arms_rejected(self):
+        with self.assertRaisesRegex(ValueError,"conflicting arms"):
+            self.run_rows("S,observed,A,x,c1,supported,s,r1\nS,observed,B,x,c2,supported,s,r1\n")
+
+    def test_pooled_studies_rejected(self):
+        with self.assertRaisesRegex(ValueError,"Multiple study IDs"):
+            self.run_rows("S1,observed,A,x,c1,supported,s,r1\nS2,observed,B,y,c2,supported,s,r2\n")
+
+    def test_missing_reviewer_rejected(self):
+        with self.assertRaisesRegex(ValueError,"missing reviewer"):
+            self.run_rows("S,observed,A,x,c1,supported,s,\n")
+
+    def test_invalid_arm_rejected(self):
+        with self.assertRaisesRegex(ValueError,"arm must"):
+            self.run_rows("S,observed,C,x,c1,supported,s,r\n")
+
+    def test_missing_study_id_rejected(self):
+        with self.assertRaisesRegex(ValueError,"missing study"):
+            self.run_rows(",observed,A,x,c1,supported,s,r\n")
 
 if __name__=="__main__":
     unittest.main()
