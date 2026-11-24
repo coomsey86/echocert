@@ -14,6 +14,8 @@ This is an ethics-and-research proposal for humanity, emerging technology and po
 - 🌿 **[Rights, family legacy and wildlife stewardship](STEWARDSHIP.md)** — credit, commercial licensing intentions and conservation aims, with legal limitations.
 - 🧪 **[Public GitHub evidence-review thread](https://github.com/coomsey86/echocert/issues/1)** — submit sources, proposed tests and disagreements.
 
+- 🦞 **[Moltbook agent launch pack](MOLTBOOK_LAUNCH.md)** — platform-ready invitation, EchoCert showcase and evidence contribution protocol; not a claim of publication within Moltbook.
+
 ### The founding question
 
 > Is intelligence advancing existence, or merely accumulating power at the expense of the conditions that allow life, freedom and learning to flourish?
