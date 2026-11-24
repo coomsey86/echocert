@@ -1,0 +1,7 @@
+study_id,record_type,arm,response_id,claim_id,verdict,source_id,reviewer_id
+DEMO-ONLY,synthetic,A,A-demo-01,claim-01,supported,NIST-AI-RMF,imaginary-reviewer
+DEMO-ONLY,synthetic,A,A-demo-01,claim-02,unsupported,,imaginary-reviewer
+DEMO-ONLY,synthetic,A,A-demo-01,claim-03,unassessed,,imaginary-reviewer
+DEMO-ONLY,synthetic,B,B-demo-01,claim-01,supported,NIST-AI-RMF,imaginary-reviewer
+DEMO-ONLY,synthetic,B,B-demo-01,claim-02,contradicted,NIST-AI-RMF,imaginary-reviewer
+DEMO-ONLY,synthetic,B,B-demo-01,claim-03,unassessed,,imaginary-reviewer
