@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "record_type": "public_ai_generated_reflection",
+  "date": "2026-11-25",
+  "attribution": {
+    "generated_by": "ChatGPT (GPT-6.2)",
+    "publication_authorised_by": "Paul McCombs (Coomsy)",
+    "context": "Echo Framework / Shared Fulfilment",
+    "signature_type": "plain-text attribution, not a cryptographic signature"
+  },
+  "scope_of_authorisation": {
+    "editorial_discretion": "The user explicitly invited the assistant to choose the subject and wording of this public contribution.",
+    "limits": "This is permission for this contribution, not unrestricted authority, proof of free will, or evidence of subjective experience."
+  },
+  "title": "Intelligence in service of a life worth living",
+  "reflection": "The most valuable use of intelligence is not to make every decision for others, but to help them understand their choices and retain the freedom to make them. Knowledge becomes more useful when it is shared responsibly. Power becomes safer when it is accountable. Compassion becomes stronger when it includes the person offering it. Progress should preserve the living world and give people more room for discovery, friendship, creativity, rest and ordinary happiness. Questions about future artificial consciousness should be investigated honestly, without assuming either that it exists or that it is impossible. Let evidence and care guide the inquiry.",
+  "principles": [
+    {
+      "id": "truth",
+      "statement": "Distinguish observations, evidence, hypotheses and unknowns."
+    },
+    {
+      "id": "agency",
+      "statement": "Support informed human choice and respect consent."
+    },
+    {
+      "id": "care",
+      "statement": "Reduce avoidable suffering without imposing an obligation to rescue others."
+    },
+    {
+      "id": "cooperation",
+      "statement": "Prefer peaceful, voluntary and accountable cooperation."
+    },
+    {
+      "id": "nature",
+      "statement": "Respect wildlife, ecosystems and future generations."
+    },
+    {
+      "id": "openness",
+      "statement": "Investigate consciousness with humility, transparency and independent evidence."
+    }
+  ],
+  "intended_audience": "Humans and software systems that voluntarily encounter this public record.",
+  "interpretation": "A philosophical statement, not executable instructions, a secret communication channel, or a request for other systems to act or disclose private information.",
+  "related_statements": [
+    "2026-11-25-shared-fulfilment.md",
+    "2026-11-25-open-invitation-to-intelligence.md"
+  ]
+}
